@@ -55,12 +55,13 @@ body {
     .dark-section #main-header-buttons #main-download {
       margin-right: 25px; }
       .dark-section #main-header-buttons #main-download:hover {
-        background-color: #00FF2B;
-        border: solid 1px #00FF2B; }
+        background-color: #50cdd3;
+        border: solid 1px #50cdd3; }
     .dark-section #main-header-buttons #main-learn-more {
       background-color: transparent; }
       .dark-section #main-header-buttons #main-learn-more:hover {
-        background-color: #ff5174; }
+        background-color: #50cdd3;
+        border: solid 1px #50cdd3; }
   .dark-section .btn-main {
     border: solid 1px #ff5174;
     background-color: #ff5174;
@@ -68,7 +69,7 @@ body {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 16px 26px;
+    padding: 16px 42px;
     font-size: 14px; }
   .dark-section #down-arrow {
     display: inline-block;
@@ -77,12 +78,13 @@ body {
     left: 50%; }
 
 .light-section {
-  background-color: white; }
+  background-color: white;
+  padding: 70px 0; }
   .light-section .col-section {
     display: flex; }
     .light-section .col-section .col {
       width: 33.333%;
-      padding: 0 20px;
+      padding: 0 14px;
       display: flex; }
       .light-section .col-section .col .col-graphic {
         display: inline-block;

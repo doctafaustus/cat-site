@@ -79,8 +79,8 @@ body {
 			margin-right: 25px;
 
 			&:hover {
-				background-color: #00FF2B;
-				border: solid 1px #00FF2B;
+				background-color: #50cdd3;
+				border: solid 1px #50cdd3;
 			}
 		}
 
@@ -88,7 +88,8 @@ body {
 			background-color: transparent;
 
 			&:hover {
-				background-color: #ff5174;
+				background-color: #50cdd3;
+				border: solid 1px #50cdd3;
 			}
 		}
 	}
@@ -100,7 +101,7 @@ body {
 	  color: white;
 	  text-transform: uppercase;
 	  text-decoration: none;
-	  padding: 16px 26px;
+	  padding: 16px 42px;
 	  font-size: 14px;
 	}
 
@@ -115,13 +116,14 @@ body {
 
 .light-section {
 	background-color: white;
+	padding: 70px 0;
 
 	.col-section {
 		display: flex;
 
 		.col {
 			width: 33.333%;
-			padding: 0 20px;
+			padding: 0 14px;
 			display: flex;
 
 			.col-graphic {
@@ -148,4 +150,3 @@ body {
 		}
 	}
 }
-
