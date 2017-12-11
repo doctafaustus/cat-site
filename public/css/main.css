@@ -10,7 +10,7 @@ body {
   padding: 0 50px; }
 
 .top-section {
-  background-color: #3c4560;
+  background-color: #343844;
   padding-top: 50px; }
   .top-section header {
     overflow: auto;
@@ -73,7 +73,7 @@ body {
 
 .light-section {
   background-color: white;
-  padding: 70px 0; }
+  padding: 70px 0 140px 0; }
   .light-section .col-section {
     display: flex; }
     .light-section .col-section .col {
@@ -95,6 +95,26 @@ body {
           line-height: 30px;
           color: rgba(28, 54, 83, 0.6); }
 
+#diamond-divider {
+  background-color: #3c4460;
+  background-image: url(../images/polygonal-bg.jpg);
+  background-size: cover; }
+  #diamond-divider #diamond-move-up {
+    position: relative;
+    bottom: -82px;
+    text-align: center; }
+    #diamond-divider #diamond-move-up #diamond {
+      display: block;
+      margin: 0 auto; }
+    #diamond-divider #diamond-move-up #diamond-title {
+      font-size: 36px;
+      margin-bottom: 25px;
+      text-align: center; }
+    #diamond-divider #diamond-move-up #diamond-subtitle {
+      font-size: 16px;
+      margin-bottom: 50px;
+      color: #aaadb5; }
+
 #demo-section {
   background-image: url(../images/lights-bg.png);
   background-size: cover;
@@ -107,7 +127,7 @@ body {
   #demo-section #demo-box {
     width: 680px;
     margin: 0 auto;
-    padding-top: 100px; }
+    padding-top: 125px; }
     #demo-section #demo-box .panel {
       background-color: rgba(50, 50, 69, 0.8);
       margin-bottom: 1px; }

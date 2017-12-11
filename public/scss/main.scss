@@ -14,7 +14,7 @@ body {
 
 
 .top-section {
-	background-color: #3c4560;
+	background-color: #343844;
   padding-top: 50px;
 
 	header {
@@ -108,7 +108,7 @@ body {
 
 .light-section {
 	background-color: white;
-	padding: 70px 0;
+	padding: 70px 0 140px 0;
 
 	.col-section {
 		display: flex;
@@ -144,6 +144,36 @@ body {
 }
 
 
+#diamond-divider {
+  background-color: #3c4460;
+  background-image: url(../images/polygonal-bg.jpg);
+  background-size: cover;
+
+  #diamond-move-up {
+    position: relative;
+    bottom: -82px;
+    text-align: center;
+  
+    #diamond {
+      display: block;
+      margin: 0 auto;
+    }
+
+    #diamond-title {
+      font-size: 36px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    #diamond-subtitle {
+      font-size: 16px;
+      margin-bottom: 50px;
+      color: #aaadb5;
+    }
+  }
+}
+
+
 #demo-section {
   background-image: url(../images/lights-bg.png);
   background-size: cover;
@@ -154,10 +184,11 @@ body {
   text-align: center;
   padding-bottom: 100px;
 
+
   #demo-box {
     width: 680px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 125px;
 
     .panel {
       background-color: rgba(50, 50, 69, 0.8);
