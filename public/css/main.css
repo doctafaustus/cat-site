@@ -1,68 +1,66 @@
 body {
   color: white;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding-bottom: 100px; }
 
 .wrapper {
   width: 1170px;
   margin: 0 auto;
-  padding: 50px; }
+  padding: 0 50px; }
 
-.dark-section {
-  background-color: #272b38; }
-  .dark-section header {
+.top-section {
+  background-color: #3c4560;
+  padding-top: 50px; }
+  .top-section header {
     overflow: auto;
-    border-bottom: solid 1px #494d55;
     padding-bottom: 40px; }
-    .dark-section header #logo {
+    .top-section header #logo {
+      float: left;
+      margin-right: 8px; }
+    .top-section header #logo-text {
       text-transform: uppercase;
       font-size: 22px;
       display: inline-block;
       float: left;
       margin-right: 65px; }
-    .dark-section header #top-menu {
+    .top-section header #top-menu {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin: 0; }
-      .dark-section header #top-menu li {
+      .top-section header #top-menu li {
         display: inline-block;
         margin-right: 15px; }
-        .dark-section header #top-menu li a {
+        .top-section header #top-menu li a {
           color: white;
           text-decoration: none;
           text-transform: uppercase;
           font-size: 14px; }
-  .dark-section #main-header-text {
-    margin-top: 160px;
-    text-align: center; }
-    .dark-section #main-header-text h1 {
-      font-size: 60px;
-      font-weight: 500;
-      margin-top: 0;
-      margin-bottom: 35px; }
-    .dark-section #main-header-text h4 {
-      width: 700px;
-      line-height: 28px;
-      letter-spacing: 1px;
-      font-size: 20px;
-      font-weight: 300;
-      margin: 0 auto; }
-  .dark-section #main-header-buttons {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    text-align: center; }
-    .dark-section #main-header-buttons #main-download {
+
+#hero-bg {
+  background-image: url(../images/sunburst.png);
+  background-size: cover;
+  background-position: center center;
+  height: 600px; }
+  #hero-bg #marquee {
+    width: 485px;
+    padding-top: 110px;
+    display: block;
+    margin: 0 auto; }
+  #hero-bg #main-header-buttons {
+    text-align: center;
+    margin-top: 60px; }
+    #hero-bg #main-header-buttons #main-download {
       margin-right: 25px; }
-      .dark-section #main-header-buttons #main-download:hover {
-        background-color: #50cdd3;
-        border: solid 1px #50cdd3; }
-    .dark-section #main-header-buttons #main-learn-more {
-      background-color: transparent; }
-      .dark-section #main-header-buttons #main-learn-more:hover {
-        background-color: #50cdd3;
-        border: solid 1px #50cdd3; }
-  .dark-section .btn-main {
+      #hero-bg #main-header-buttons #main-download:hover {
+        border: solid 1px transparent; }
+    #hero-bg #main-header-buttons #main-learn-more {
+      background-color: #00b6e2;
+      border: solid 1px #00b6e2; }
+      #hero-bg #main-header-buttons #main-learn-more:hover {
+        border: solid 1px transparent; }
+  #hero-bg .btn-main {
     border: solid 1px #ff5174;
     background-color: #ff5174;
     border-radius: 35px;
@@ -70,12 +68,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 16px 42px;
-    font-size: 14px; }
-  .dark-section #down-arrow {
-    display: inline-block;
-    position: fixed;
-    bottom: 50px;
-    left: 50%; }
+    font-size: 14px;
+    font-weight: bold; }
 
 .light-section {
   background-color: white;
@@ -100,3 +94,37 @@ body {
           font-size: 16px;
           line-height: 30px;
           color: rgba(28, 54, 83, 0.6); }
+
+#demo-section {
+  background-image: url(../images/lights-bg.png);
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  height: 500px;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px; }
+  #demo-section #demo-box {
+    width: 680px;
+    margin: 0 auto;
+    padding-top: 100px; }
+    #demo-section #demo-box .panel {
+      background-color: rgba(50, 50, 69, 0.8);
+      margin-bottom: 1px; }
+    #demo-section #demo-box #demo-question {
+      height: 250px;
+      line-height: 250px;
+      font-size: 33px; }
+    #demo-section #demo-box #demo-answers .answer-btn {
+      float: left;
+      width: 340px;
+      height: 60px;
+      line-height: 60px;
+      cursor: pointer; }
+      #demo-section #demo-box #demo-answers .answer-btn.answer-btn-left {
+        width: 340px;
+        margin-right: 1px; }
+      #demo-section #demo-box #demo-answers .answer-btn.answer-btn-right {
+        width: 339px; }
+      #demo-section #demo-box #demo-answers .answer-btn:hover {
+        background-color: rgba(255, 81, 116, 0.78); }
