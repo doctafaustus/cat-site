@@ -133,14 +133,18 @@ body {
       margin-bottom: 1px; }
     #demo-section #demo-box #demo-question {
       height: 250px;
-      line-height: 250px;
-      font-size: 33px; }
+      font-size: 32px; }
+      #demo-section #demo-box #demo-question #question-title {
+        padding: 91px 30px 0 30px;
+        line-height: 43px; }
     #demo-section #demo-box #demo-answers .answer-btn {
       float: left;
       width: 340px;
       height: 60px;
       line-height: 60px;
-      cursor: pointer; }
+      cursor: pointer;
+      font-size: 18px;
+      box-sizing: border-box; }
       #demo-section #demo-box #demo-answers .answer-btn.answer-btn-left {
         width: 340px;
         margin-right: 1px; }
@@ -148,3 +152,23 @@ body {
         width: 339px; }
       #demo-section #demo-box #demo-answers .answer-btn:hover {
         background-color: rgba(255, 81, 116, 0.78); }
+      #demo-section #demo-box #demo-answers .answer-btn.selected {
+        background-color: rgba(240, 153, 32, 0.69); }
+
+@keyframes correct {
+  0% {
+    background-color: rgba(10, 195, 18, 0.6); }
+  50% {
+    background-color: rgba(240, 153, 32, 0.69); }
+  75% {
+    background-color: rgba(10, 195, 18, 0.6); }
+  100% {
+    background-color: rgba(10, 195, 18, 0.6); } }
+
+.correct {
+  animation-name: correct;
+  animation-duration: 700ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  background-color: rgba(10, 195, 18, 0.6) !important;
+  border: solid 1px #76fc76; }

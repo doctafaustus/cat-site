@@ -197,8 +197,12 @@ body {
 
     #demo-question {
       height: 250px;
-      line-height: 250px;
-      font-size: 33px;
+      font-size: 32px;
+
+      #question-title {
+        padding: 91px 30px 0 30px;
+        line-height: 43px;
+      }
     }
 
     #demo-answers {
@@ -209,6 +213,8 @@ body {
         height: 60px;
         line-height: 60px;
         cursor: pointer;
+        font-size: 18px;
+        box-sizing: border-box;
 
         &.answer-btn-left {
           width: 340px;
@@ -222,7 +228,36 @@ body {
         &:hover {
           background-color: rgba(255, 81, 116, 0.78);
         }
+
+        &.selected {
+          background-color: rgba(240, 153, 32, 0.69);
+        }
       }
     }
   }
 }
+
+
+@keyframes correct {
+  0% {
+    background-color: rgba(10, 195, 18, 0.6);
+  }
+  50% {
+    background-color: rgba(240, 153, 32, 0.69);
+  }
+  75% {
+    background-color: rgba(10, 195, 18, 0.6);
+  }
+  100% {
+    background-color: rgba(10, 195, 18, 0.6);
+  }
+}
+    
+.correct {
+  animation-name: correct;
+  animation-duration: 700ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  background-color: rgba(10, 195, 18, 0.6) !important;
+  border: solid 1px #76fc76;
+} 
