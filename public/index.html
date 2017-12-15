@@ -124,18 +124,28 @@
 
     $('.answer-btn').click(function() {
       var $btn = $(this);
+
+      if ($btn.hasClass('locked')) return;
+
       var selectedAnswer = $btn.find('span').attr('id').replace('question-', '');
       var correctAnswer = questions[questionIndex].answer;
+      var $correctAnswerBtn = $(`#question-${correctAnswer}`).closest('.answer-btn');
       $btn.addClass('selected');
+      $('.answer-btn').addClass('locked');
 
       setTimeout(function() {
         if (selectedAnswer === correctAnswer) {
           $btn.addClass('correct');
         } else {
-          return;
+          $correctAnswerBtn.addClass('incorrect');
         }
 
-      }, 1200);
+        setTimeout(function() {
+          window.questionIndex++;
+          if (window.questionIndex === questions.length) return;
+          populateQuestion(window.questionIndex);
+        }, 2600);
+      }, 1000);
     });
 
 
@@ -183,6 +193,7 @@
     ];
 
     function populateQuestion(questionNum) {
+      $('.answer-btn').removeClass('locked selected correct incorrect');
       populateText('#question-title', questions[questionIndex].question);
       populateText('#question-a', questions[questionIndex].a);
       populateText('#question-b', questions[questionIndex].b);
@@ -197,6 +208,13 @@
     }
 
     populateQuestion(questionIndex);
+
+
+    function shrinkAnswers() {
+      $('#demo-answers, #question-title').fadeOut(function() {
+        $('#demo-question').addClass('grow');
+      });
+    }
 
   </script>
 </body>
