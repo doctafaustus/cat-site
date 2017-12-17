@@ -140,6 +140,8 @@ body {
       #demo-section #demo-box #demo-question #question-title {
         padding: 91px 30px 0 30px;
         line-height: 43px; }
+        #demo-section #demo-box #demo-question #question-title.shifted {
+          padding-top: 162px; }
     #demo-section #demo-box #demo-answers .answer-btn {
       float: left;
       width: 340px;

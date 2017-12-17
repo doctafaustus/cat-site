@@ -142,9 +142,9 @@
 
         setTimeout(function() {
           window.questionIndex++;
-          if (window.questionIndex === questions.length) return;
+          if (window.questionIndex === questions.length) return shrinkAnswers();
           populateQuestion(window.questionIndex);
-        }, 2600);
+        }, 2300);
       }, 1000);
     });
 
@@ -213,6 +213,7 @@
     function shrinkAnswers() {
       $('#demo-answers, #question-title').fadeOut(function() {
         $('#demo-question').addClass('grow');
+        $('#question-title').text('Download a question pack for more!').addClass('shifted').fadeIn();
       });
     }
 
