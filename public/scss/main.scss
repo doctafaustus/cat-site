@@ -138,7 +138,7 @@ body {
 				.col-desc {
 					font-size: 16px;
 					line-height: 30px;
-					color: rgba(28, 54, 83, 0.6);
+					color: #3D4351;
 				}
 			}
 		}
@@ -308,6 +308,29 @@ body {
 
 #showcase-section {
   color: #3D4351;
+  padding: 120px 0;
+  position: relative;
+
+  #tablet-mobile {
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+  }
+
+  #showcase-info {
+    float: right;
+    width: 50%;
+    max-width: 445px;
+    font-size: 16px;
+    line-height: 29px;
+
+    #showcase-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+  }
+  
 }
 
 
