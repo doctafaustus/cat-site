@@ -329,6 +329,47 @@ body {
       font-weight: 600;
       margin-bottom: 24px;
     }
+
+    #showcase-subtitle {
+      margin-bottom: 55px;
+    }
+
+    #showcase-list {
+      .showcase-item {
+        clear: both;
+        overflow: auto;
+        padding: 24px 0;
+
+        &:nth-child(2) {
+          border-top: solid 1px #e4d8d8;
+          border-bottom: solid 1px #e4d8d8;
+        }
+
+        .showcase-icon {
+          display: inline-block;
+          float: left;
+          margin-right: 22px;
+
+          img {
+            width: 40px;
+          }
+        }
+
+        .showcase-block {
+          float: left;
+          width: 375px;
+
+          .showcase-item-title {
+            font-weight: 600;
+          }
+
+          .showcase-message {
+            font-size: 15px;
+          }
+        }
+
+      }
+    }
   }
   
 }

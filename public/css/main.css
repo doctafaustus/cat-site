@@ -218,6 +218,28 @@ body {
       font-size: 24px;
       font-weight: 600;
       margin-bottom: 24px; }
+    #showcase-section #showcase-info #showcase-subtitle {
+      margin-bottom: 55px; }
+    #showcase-section #showcase-info #showcase-list .showcase-item {
+      clear: both;
+      overflow: auto;
+      padding: 24px 0; }
+      #showcase-section #showcase-info #showcase-list .showcase-item:nth-child(2) {
+        border-top: solid 1px #e4d8d8;
+        border-bottom: solid 1px #e4d8d8; }
+      #showcase-section #showcase-info #showcase-list .showcase-item .showcase-icon {
+        display: inline-block;
+        float: left;
+        margin-right: 22px; }
+        #showcase-section #showcase-info #showcase-list .showcase-item .showcase-icon img {
+          width: 40px; }
+      #showcase-section #showcase-info #showcase-list .showcase-item .showcase-block {
+        float: left;
+        width: 375px; }
+        #showcase-section #showcase-info #showcase-list .showcase-item .showcase-block .showcase-item-title {
+          font-weight: 600; }
+        #showcase-section #showcase-info #showcase-list .showcase-item .showcase-block .showcase-message {
+          font-size: 15px; }
 
 @keyframes correct {
   0% {
