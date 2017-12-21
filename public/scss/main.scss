@@ -2,7 +2,6 @@ body {
 	color: white;
 	margin: 0;
 	padding: 0;
-  padding-bottom: 1000px;
   min-width: 1170px;
 }
 
@@ -202,6 +201,78 @@ body {
 }
 
 
+#showcase-section {
+  color: #3D4351;
+  padding: 120px 0 0 0;
+  position: relative;
+
+  .wrapper {
+    overflow: auto;
+  }
+
+  #tablet-mobile {
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+    width: 810px;
+  }
+
+  #showcase-info {
+    float: right;
+    width: 50%;
+    max-width: 445px;
+    font-size: 16px;
+    line-height: 29px;
+
+    #showcase-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    #showcase-subtitle {
+      margin-bottom: 55px;
+    }
+
+    #showcase-list {
+      .showcase-item {
+        clear: both;
+        overflow: auto;
+        padding: 24px 0;
+
+        &:nth-child(2) {
+          border-top: solid 1px #e4d8d8;
+          border-bottom: solid 1px #e4d8d8;
+        }
+
+        .showcase-icon {
+          display: inline-block;
+          float: left;
+          margin-right: 22px;
+
+          img {
+            width: 40px;
+          }
+        }
+
+        .showcase-block {
+          float: left;
+          width: 375px;
+
+          .showcase-item-title {
+            font-weight: 600;
+          }
+
+          .showcase-message {
+            font-size: 15px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
 
 #diamond-divider {
   background-color: #3c4460;
@@ -241,13 +312,13 @@ body {
   height: 500px;
   color: white;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 
 
   #demo-box {
     width: 680px;
     margin: 0 auto;
-    padding-top: 125px;
+    padding-top: 140px;
 
     .panel {
       background-color: rgba(50, 50, 69, 0.8);
@@ -306,74 +377,104 @@ body {
 }
 
 
-#showcase-section {
-  color: #3D4351;
-  padding: 120px 0;
-  position: relative;
 
-  #tablet-mobile {
-    position: absolute;
-    z-index: 1;
-    right: 50%;
+
+#testimonials-section {
+  clear: both;
+  color: white;
+  background-image: url(../images/testimonials-bg.jpg);
+  background-size: cover;
+  padding: 120px 0;
+
+  #testimonial-avatar {
+    width: 87px;
+    height: 82px;
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    background-color: #fff;
   }
 
-  #showcase-info {
+  #testimonial-quote {
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  #testimonial-author {
+    color: #ACB1B4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+
+#pre-footer-section {
+  background-color: #495061;
+  overflow: auto;
+
+  #scroll-top {
+    background-color: #3D4351;
+    height: 60px;
+    width: 70px;
+    text-align: center;
     float: right;
-    width: 50%;
-    max-width: 445px;
-    font-size: 16px;
-    line-height: 29px;
+    cursor: pointer;
 
-    #showcase-title {
-      font-size: 24px;
-      font-weight: 600;
-      margin-bottom: 24px;
+    svg {
+      fill: white;
+      position: relative;
+      top: 19px;
+    }
+  }
+}
+
+footer {
+  background-color: #3D4351;
+  padding: 120px 0;
+
+  #footer-block {
+    border-top: solid 1px #626876;
+    width: 680px;
+
+    #footer-links {
+      padding-top: 25px;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+
+      li {
+        display: inline-block;
+        margin-right: 32px;
+
+        a {
+          color: white;
+
+          &:hover {
+            color: #FF5274;
+          }
+        }
+      }
     }
 
-    #showcase-subtitle {
-      margin-bottom: 55px;
-    }
+    #footer-extra {
+      font-size: 13px;
 
-    #showcase-list {
-      .showcase-item {
-        clear: both;
-        overflow: auto;
-        padding: 24px 0;
-
-        &:nth-child(2) {
-          border-top: solid 1px #e4d8d8;
-          border-bottom: solid 1px #e4d8d8;
+      #copyright {
+        #copyright-gray {
+          color: gray;
+          padding-right: 8px;
         }
-
-        .showcase-icon {
-          display: inline-block;
-          float: left;
-          margin-right: 22px;
-
-          img {
-            width: 40px;
-          }
-        }
-
-        .showcase-block {
-          float: left;
-          width: 375px;
-
-          .showcase-item-title {
-            font-weight: 600;
-          }
-
-          .showcase-message {
-            font-size: 15px;
-          }
-        }
-
       }
     }
   }
-  
 }
-
 
 @keyframes correct {
   0% {
