@@ -11,32 +11,37 @@ body {
 
 .top-section {
   background-color: #343844;
-  padding-top: 50px; }
-  .top-section header {
-    overflow: auto;
-    padding-bottom: 40px; }
-    .top-section header #logo {
-      float: left;
-      margin-right: 8px; }
-    .top-section header #logo-text {
-      text-transform: uppercase;
-      font-size: 22px;
+  padding: 35px 0;
+  overflow: auto; }
+  .top-section header #logo {
+    float: left;
+    margin-right: 8px; }
+  .top-section header #logo-text, .top-section header #top-menu {
+    position: relative;
+    top: 19px; }
+  .top-section header #logo-text {
+    font-size: 22px;
+    display: inline-block;
+    float: left;
+    color: #1fc8f1;
+    margin-left: 5px;
+    margin-right: 80px;
+    font-family: 'Comfortaa', sans-serif; }
+  .top-section header #top-menu {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin: 0; }
+    .top-section header #top-menu li {
       display: inline-block;
-      float: left;
-      margin-right: 65px; }
-    .top-section header #top-menu {
-      list-style-type: none;
-      display: inline-block;
-      float: left;
-      margin: 0; }
-      .top-section header #top-menu li {
-        display: inline-block;
-        margin-right: 15px; }
-        .top-section header #top-menu li a {
-          color: white;
-          text-decoration: none;
-          text-transform: uppercase;
-          font-size: 14px; }
+      margin-right: 15px; }
+      .top-section header #top-menu li a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px; }
+        .top-section header #top-menu li a:hover {
+          color: #FF5274; }
 
 #hero-bg {
   background-image: url(../images/sunburst.png);
@@ -72,26 +77,26 @@ body {
   font-size: 14px;
   font-weight: bold; }
 
-.light-section {
+#column-section {
   background-color: white;
   padding: 70px 0 70px 0; }
-  .light-section .col-section {
+  #column-section .col-section {
     display: flex; }
-    .light-section .col-section .col {
+    #column-section .col-section .col {
       width: 33.333%;
       padding: 0 14px;
       display: flex; }
-      .light-section .col-section .col .col-graphic {
+      #column-section .col-section .col .col-graphic {
         display: inline-block;
         margin-right: 15px; }
-      .light-section .col-section .col .col-container {
+      #column-section .col-section .col .col-container {
         font-weight: 300;
         font-size: 15px; }
-        .light-section .col-section .col .col-container .col-title {
+        #column-section .col-section .col .col-container .col-title {
           font-weight: 600;
           color: #3D4351;
           margin-bottom: 10px; }
-        .light-section .col-section .col .col-container .col-desc {
+        #column-section .col-section .col .col-container .col-desc {
           font-size: 16px;
           line-height: 30px;
           color: #3D4351; }
@@ -273,7 +278,8 @@ body {
 
 #pre-footer-section {
   background-color: #495061;
-  overflow: auto; }
+  overflow: auto;
+  overflow-x: hidden; }
   #pre-footer-section #scroll-top {
     background-color: #3D4351;
     height: 60px;
@@ -287,11 +293,11 @@ body {
       top: 19px; }
 
 footer {
-  background-color: #3D4351;
+  background-color: #343844;
   padding: 120px 0; }
   footer #footer-block {
     border-top: solid 1px #626876;
-    width: 680px; }
+    width: 480px; }
     footer #footer-block #footer-links {
       padding-top: 25px;
       font-size: 13px;
@@ -306,9 +312,16 @@ footer {
             color: #FF5274; }
     footer #footer-block #footer-extra {
       font-size: 13px; }
-      footer #footer-block #footer-extra #copyright #copyright-gray {
-        color: gray;
+      footer #footer-block #footer-extra .gray {
+        color: #ACB1B4; }
+      footer #footer-block #footer-extra #footer-company {
         padding-right: 8px; }
+      footer #footer-block #footer-extra #crafted {
+        margin-top: 8px; }
+        footer #footer-block #footer-extra #crafted img {
+          top: 5px;
+          left: 7px;
+          position: relative; }
 
 @keyframes correct {
   0% {

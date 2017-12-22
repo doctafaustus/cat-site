@@ -6,9 +6,6 @@
 
 	<title>Trivia Question Packs</title>
 
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet">
-
 	<!-- Stylesheets -->
 	<link href="./css/reset.css" rel="stylesheet">
 	<link href="./css/main.css" rel="stylesheet">
@@ -22,10 +19,10 @@
 				<img id="logo" src="./images/logo.png">
 				<div id="logo-text">Completely Absurd Trivia</div>
 				<ul id="top-menu">
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Demo</a></li>
-					<li><a href="#">Download</a></li>
-					<li><a href="#">Extras</a></li>
+					<li><a href="#column-section">Features</a></li>
+					<li><a href="#diamond-divider">Demo</a></li>
+					<li><a href="#testimonials-section">Testimonials</a></li>
+          <li><a href="#">Download</a></li>
 				</ul>
 			</header>
 		</div>
@@ -41,7 +38,7 @@
 		</div>
 	</div>
 
-	<div class="light-section">
+	<div id="column-section">
 		<div class="wrapper">
 
 			<div class="col-section">
@@ -205,14 +202,15 @@
     <div class="wrapper">
       <div id="footer-block">
         <ul id="footer-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Demo</a></li>
+            <li><a href="#column-section">Features</a></li>
+            <li><a href="#diamond-divider">Demo</a></li>
+            <li><a href="#testimonials-section">Testimonials</a></li>
             <li><a href="#">Download</a></li>
-            <li><a href="#">Extras</a></li>
         </ul>
 
         <div id="footer-extra">
-          <div id="copyright"><span id="copyright-gray">Copyright &copy; 2018</span> Completely Absurd Trivia</div>
+          <div id="copyright"><span class="gray" id="footer-company">Copyright &copy; 2018</span> Completely Absurd Trivia</div>
+          <div id="crafted" class="gray">Lovingly crafted with NodeJS<img src="./images/node.png"></div>
         </div>
       </div>
     </div>
@@ -232,7 +230,7 @@
 
       var selectedAnswer = $btn.find('span').attr('id').replace('question-', '');
       var correctAnswer = questions[questionIndex].answer;
-      var $correctAnswerBtn = $(`#question-${correctAnswer}`).closest('.answer-btn');
+      var $correctAnswerBtn = $('#question-' + correctAnswer).closest('.answer-btn');
       $btn.addClass('selected');
       $('.answer-btn').addClass('locked');
 

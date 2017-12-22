@@ -15,23 +15,28 @@ body {
 
 .top-section {
 	background-color: #343844;
-  padding-top: 50px;
+  padding: 35px 0;
+  overflow: auto;
 
 	header {
-		overflow: auto;
-	  padding-bottom: 40px;
-
     #logo {
       float: left;
       margin-right: 8px;
     }
 
+    #logo-text, #top-menu {
+      position: relative;
+      top: 19px;
+    }
+
 		#logo-text {
-			text-transform: uppercase;
 			font-size: 22px;
 			display: inline-block;
 			float: left;
-			margin-right: 65px;
+      color: #1fc8f1;
+      margin-left: 5px;
+			margin-right: 80px;
+      font-family: 'Comfortaa', sans-serif;
 		}
 
 		#top-menu {
@@ -49,6 +54,10 @@ body {
 					text-decoration: none;
 					text-transform: uppercase;
 					font-size: 14px;
+
+          &:hover {
+            color: #FF5274;
+          }
 				}
 			}
 		}
@@ -107,7 +116,7 @@ body {
 
 
 
-.light-section {
+#column-section {
 	background-color: white;
 	padding: 70px 0 70px 0;
 
@@ -418,6 +427,7 @@ body {
 #pre-footer-section {
   background-color: #495061;
   overflow: auto;
+  overflow-x: hidden;
 
   #scroll-top {
     background-color: #3D4351;
@@ -436,12 +446,12 @@ body {
 }
 
 footer {
-  background-color: #3D4351;
+  background-color: #343844;
   padding: 120px 0;
 
   #footer-block {
     border-top: solid 1px #626876;
-    width: 680px;
+    width: 480px;
 
     #footer-links {
       padding-top: 25px;
@@ -466,10 +476,21 @@ footer {
     #footer-extra {
       font-size: 13px;
 
-      #copyright {
-        #copyright-gray {
-          color: gray;
-          padding-right: 8px;
+      .gray {
+        color: #ACB1B4;
+      }
+
+      #footer-company {
+        padding-right: 8px;
+      }
+
+      #crafted {
+        margin-top: 8px;
+
+        img {
+          top: 5px;
+          left: 7px;
+          position: relative;
         }
       }
     }
