@@ -139,6 +139,69 @@
     </div>
   </div>
 
+  <div id="pack-section">
+    <div class="wrapper">
+      <div class="pack-item">
+        <div class="pack-pad">
+          <div class="pack-item-title">Trivia Pack A</div>
+        </div>
+        <div class="pack-item-price">$20</div>
+        <div class="pack-pad">
+          <div class="pack-description">
+            <span class="pack-num">50 </span><span class="pack-bold">Question Pack</span>
+          </div>
+          <ul class="pack-features">
+            <li>Instant download</li>
+            <li>CSV &amp; JSON formats</li>
+            <li>Uncategorized</li>
+            <li>Multiple choice of 4 answers</li>
+          </ul>
+          <a class="pack-download" id="pack-a" href="#">DOWNLOAD</a>
+        </div>
+      </div>
+
+      <div class="pack-item">
+        <div class="pack-pad">
+          <div class="pack-item-title">Trivia Pack B</div>
+        </div>
+        <div class="pack-item-price">$40</div>
+        <div class="pack-pad">
+          <div class="pack-description">
+            <span class="pack-num">100 </span><span class="pack-bold">Question Pack</span>
+          </div>
+          <ul class="pack-features">
+            <li>Instant download</li>
+            <li>CSV &amp; JSON formats</li>
+            <li>Uncategorized</li>
+            <li>Multiple choice of 4 answers</li>
+          </ul>
+          <a class="pack-download" id="pack-b" href="#">DOWNLOAD</a>
+        </div>
+      </div>
+
+      <div class="pack-item">
+        <div class="pack-pad">
+          <div class="pack-item-title">Trivia Pack C</div>
+        </div>
+        <div class="pack-item-price">$40</div>
+        <div class="pack-pad">
+          <div class="pack-description">
+            <span class="pack-num">100 </span><span class="pack-bold">Question Pack</span>
+          </div>
+          <ul class="pack-features">
+            <li>Instant download</li>
+            <li>CSV &amp; JSON formats</li>
+            <li>Uncategorized</li>
+            <li>Multiple choice of 4 answers</li>
+          </ul>
+          <a class="pack-download" id="pack-c" href="#">DOWNLOAD</a>
+        </div>
+      </div>
+    </div>
+
+    <img id="card-pack" src="./images/card-pack.png">
+  </div>
+
 	<div id="diamond-divider">
 		<div class="wrapper">
 			<div id="diamond-move-up">
@@ -318,6 +381,17 @@
       });
     }
 
+
+    $('#top-menu li a, #footer-links li a').click(function(e) {
+      e.preventDefault();
+
+      var target = $(this).attr('href');
+      if (target === '#') return;
+
+      $('html, body').animate({
+        scrollTop: $(target).offset().top
+      }, 500);
+    });
   </script>
 </body>
 </html>
