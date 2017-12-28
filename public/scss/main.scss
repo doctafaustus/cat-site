@@ -647,6 +647,7 @@ footer {
   .wrapper {
     box-sizing: border-box;
     width: 100%;
+    padding: 0 30px;
   }
 
 
@@ -708,9 +709,147 @@ footer {
     padding: 12px 16px;
   }
 
+  #column-section {
+    .col-section {
+      display: block;
 
+      .col {
+        width: 100%;
+        padding: 0;
 
-  #column-section, #laptop-section, #showcase-section, #pack-section, #diamond-divider, #demo-section, #testimonials-section, #pre-footer-section, footer {
+        &:nth-child(2) {
+          margin: 45px 0;
+        }
+      }
+    }
+  }
+
+  #laptop-section {
+    padding: 70px 0;
+
+    .wrapper {
+      display: block;
+
+      #laptop-info {
+        max-width: 100%;
+        width: 100%;
+
+        #laptop-title {
+          margin-bottom: 30px;
+        }
+
+        p:last-of-type {
+          margin-bottom: 40px;
+        }
+
+        #laptop-download {
+          display: block;
+          text-align: center;
+        }
+      }
+
+      #laptop {
+        position: static;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  #showcase-section {
+    padding: 70px 0;
+
+    #tablet-mobile {
+      position: static;
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+
+    #showcase-info {
+      float: none;
+      width: 100%;
+      margin-top: 30px;
+      text-align: center;
+
+      #showcase-subtitle {
+        margin-bottom: 10px;
+      }
+
+      #showcase-list {
+        .showcase-item {
+
+          .showcase-icon {
+            display: block;
+            text-align: center;
+            float: none;
+            margin-right: 0;
+          }
+
+          .showcase-block {
+            float: none;
+            width: 100%;
+          }
+
+          &:last-child {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  #pack-section {
+    padding: 70px 0 0 0;
+
+    .wrapper {
+      display: block;
+    }
+
+    .pack-item {
+      margin-bottom: 55px;
+    }
+
+    #card-pack {
+      position: static;
+      display: block;
+    }
+  }
+
+  #diamond-divider {
+    #diamond-move-up {
+      #diamond-subtitle {
+        font-size: 17px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  #demo-section {
+    #demo-box {
+      width: 100%;
+
+      #demo-question {
+        height: auto;
+
+        #question-title {
+          padding: 50px 30px;
+          font-size: 23px;
+          line-height: 34px;
+        }
+      }
+
+      #demo-answers {
+        .answer-btn.answer-btn-left, .answer-btn.answer-btn-right {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #testimonials-section, #pre-footer-section, footer {
     display: none;
   }
   
