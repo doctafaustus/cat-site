@@ -849,8 +849,35 @@ footer {
     }
   }
 
-  #testimonials-section, #pre-footer-section, footer {
-    display: none;
+  #testimonials-section {
+    padding: 70px 0;
+
+    #testimonial-quote {
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    #testimonial-author {
+      line-height: 24px;
+    }
+  }
+
+  footer {
+    padding: 70px 0;
+
+    #footer-block {
+      width: auto;
+
+      #footer-links {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+
+        li {
+          margin-right: 0;
+        }
+      }
+    }
   }
   
 }

@@ -532,5 +532,20 @@ footer {
         line-height: 34px; }
     #demo-section #demo-box #demo-answers .answer-btn.answer-btn-left, #demo-section #demo-box #demo-answers .answer-btn.answer-btn-right {
       width: 100%; }
-  #testimonials-section, #pre-footer-section, footer {
-    display: none; } }
+  #testimonials-section {
+    padding: 70px 0; }
+    #testimonials-section #testimonial-quote {
+      font-size: 30px;
+      line-height: 35px; }
+    #testimonials-section #testimonial-author {
+      line-height: 24px; }
+  footer {
+    padding: 70px 0; }
+    footer #footer-block {
+      width: auto; }
+      footer #footer-block #footer-links {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px; }
+        footer #footer-block #footer-links li {
+          margin-right: 0; } }
