@@ -1,0 +1,402 @@
+[
+	{
+		"question": "What is April's birthstone?", 
+		"a": "Emerald", 
+		"b": "Ruby",
+		"c": "Diamond",
+		"d": "Topaz",
+		"answer": "c"
+	},
+	{
+		"question": "What is Homer Simpson's middle initial?",
+		"a": "L",
+		"b": "J",
+		"c": "D",
+		"d": "T",
+		"answer": "b"
+	},
+	{
+		"question": "Regarding the candy, what does 'M&M' stand for?",
+		"a": "Mars and Murrie",
+		"b": "Marshall Mathers",
+		"c": "Mine & Mine",
+		"d": "Mr. Murphy's",
+		"answer": "a"
+	},
+	{
+		"question": "What is the capital of Alaska?",
+		"a": "Anchorage",
+		"b": "Fairbanks",
+		"c": "Juneau",
+		"d": "Seward",
+		"answer": "c"
+	},
+	{
+		"question": "Which character killed the monster 'Grendel'?",
+		"a": "Achilles",
+		"b": "Perseus",
+		"c": "Hercules",
+		"d": "Beowulf",
+		"answer": "d"
+	},
+	{
+		"question": "What 1990s fad involved something known as a slammer?",
+		"a": "Tamagotchi",
+		"b": "Pogs",
+		"c": "Pokemon",
+		"d": "Beanie Babies",
+		"answer": "b"
+	},
+	{
+		"question": "What is Sinbad's real name?",
+		"a": "David Adkins",
+		"b": "Carlos Ignacio",
+		"c": "Sam Simms",
+		"d": "Myron Oaks",
+		"answer": "a"
+	},
+	{
+		"question": "What flavor is triple sec liquor?",
+		"a": "Vanilla",
+		"b": "None",
+		"c": "Orange",
+		"d": "Lime",
+		"answer": "c"
+	},
+	{
+		"question": "Which car company manufactures the \"Navigator\"?",
+		"a": "Nissan",
+		"b": "Honda",
+		"c": "GMC",
+		"d": "Lincoln",
+		"answer": "d"
+	},
+	{
+		"question": "What is the closest planet to the Sun?",
+		"a": "Mars",
+		"b": "Venus",
+		"c": "Mercury",
+		"d": "Earth",
+		"answer": "c"
+	},
+	{
+		"question": "What is the \"birdie\" in the game of badminton also known as?",
+		"a": "Shuttlecock",
+		"b": "Dart",
+		"c": "Toypedo",
+		"d": "Arrow",
+		"answer": "a"
+	},
+	{
+		"question": "What type of beverage is associated with a sommelier?",
+		"a": "Ale",
+		"b": "Tequila",
+		"c": "Lager",
+		"d": "Wine",
+		"answer": "d"
+	},
+	{
+		"question": "Which of the following is not one of the Seven Deadly Sins?",
+		"a": "Pride",
+		"b": "Rage",
+		"c": "Lust",
+		"d": "Avarice",
+		"answer": "b"
+	},
+	{
+		"question": "Who is known as \"The Friendly Ghost\"?",
+		"a": "Boo",
+		"b": "Slimer",
+		"c": "Casper",
+		"d": "Beetlejuice",
+		"answer": "c"
+	},
+	{
+		"question": "What company originated the catchphrase \"Where's the beef?\"?",
+		"a": "Purdue",
+		"b": "Arbys",
+		"c": "Oscar Mayer",
+		"d": "Wendys",
+		"answer": "d"
+	},
+	{
+		"question": "The kneecap is also known as what?",
+		"a": "Tibia",
+		"b": "Patella",
+		"c": "Sphenoid",
+		"d": "Clavicle",
+		"answer": "b"
+	},
+	{
+		"question": "Who invented the modern toilet?",
+		"a": "Sir John Harington",
+		"b": "Thomas Edison",
+		"c": "Emmett Lathrop Brown",
+		"d": "Sir Henry Cole",
+		"answer": "a"
+	},
+	{
+		"question": "What kind of weapon is a falchion?",
+		"a": "Sword",
+		"b": "Axe",
+		"c": "Bow",
+		"d": "Gun",
+		"answer": "a"
+	},
+	{
+		"question": "What was Mickey Mouse's original name?",
+		"a": "Mortimer Mouse",
+		"b": "Mankey Mouse",
+		"c": "Mighty Mouse",
+		"d": "Mr. Mouse",
+		"answer": "a"
+	},
+	{
+		"question": "Who invented the cotton gin in 1793?",
+		"a": "Atticus Finch",
+		"b": "Eli Whitney",
+		"c": "Wright Brothers",
+		"d": "Steve Smobs",
+		"answer": "b"
+	},
+  {
+    "question": "How long is an eon in astronomy?", 
+    "a": "A thousand years", 
+    "b": "A trillion years",
+    "c": "A million years",
+    "d": "A billion years",
+    "answer": "d"
+  },
+  {
+    "question": "What was Nicole Polizzi's nickname on \"Jersey Shore\"?", 
+    "a": "Sweetheart", 
+    "b": "JWoww",
+    "c": "Snooki",
+    "d": "The Situation",
+    "answer": "c"
+  },
+  {
+    "question": "What was the name of the U.S. mail service that started in 1860?", 
+    "a": "Pony Express", 
+    "b": "Rider mail",
+    "c": "Fast mail",
+    "d": "U.S. Mail",
+    "answer": "a"
+  },
+  {
+    "question": "Where would you find the Sea of Tranquility?", 
+    "a": "Japan", 
+    "b": "The Moon",
+    "c": "Pluto",
+    "d": "The Middle East",
+    "answer": "b"
+  },
+  {
+    "question": "Which chess piece can only move diagonally?", 
+    "a": "King", 
+    "b": "Knight",
+    "c": "Rook",
+    "d": "Bishop",
+    "answer": "d"
+  },
+  {
+    "question": "When did the Cold War end?", 
+    "a": "1993", 
+    "b": "1991",
+    "c": "1992",
+    "d": "1990",
+    "answer": "b"
+  },
+  {
+    "question": "Which country is Prague in? ", 
+    "a": "Austria", 
+    "b": "Hungary",
+    "c": "Czech Republic",
+    "d": "Germany",
+    "answer": "c"
+  },
+  {
+    "question": "Where is Kanye West from?", 
+    "a": "St. Louis, MO", 
+    "b": "Miami, FL",
+    "c": "New York, NY",
+    "d": "Chicago, IL",
+    "answer": "d"
+  },
+  {
+    "question": "What was the first music video played on MTV?", 
+    "a": "We Are the World", 
+    "b": "Take On Me",
+    "c": "Video Killed The Radio Star",
+    "d": "Money for Nothing",
+    "answer": "c"
+  },
+  {
+    "question": "In computer science, what does \"API\" stand for?", 
+    "a": "Applied Programming Information ",
+    "b": "Application Program Interface",
+    "c": "Active Program Interface",
+    "d": "Application Programming Index",
+    "answer": "b"
+  },
+  {
+    "question": "The llama is native to which continent?", 
+    "a": "South America",
+    "b": "Europe",
+    "c": "Africa",
+    "d": "Australia",
+    "answer": "a"
+  },
+  {
+    "question": "Penicillin was discovered in 1928 by which Scottish scientist?", 
+    "a": "Max Planck",
+    "b": "Marie Curie",
+    "c": "Isaac Newton",
+    "d": "Sir Alexander Fleming",
+    "answer": "d"
+  },
+  {
+    "question": "How old was Jimi Hendrix when he passed away in 1970?", 
+    "a": "39",
+    "b": "31",
+    "c": "30",
+    "d": "27",
+    "answer": "d"
+  },
+  {
+    "question": "Who wrote the novel \"1984\"?", 
+    "a": "E. B. White",
+    "b": "Orson Welles",
+    "c": "J. D. Salinger",
+    "d": "George Orwell",
+    "answer": "d"
+  },
+  {
+    "question": "What U.S. state has the nickname \"Land of 10,000 Lakes\"?", 
+    "a": "Wisconsin",
+    "b": "Michigan",
+    "c": "Minnesota",
+    "d": "Illinois",
+    "answer": "c"
+  },
+  {
+    "question": "Traditionally, the term \"caviar\" refers to the salt-cured roe of which fish?", 
+    "a": "Sturgeon",
+    "b": "Salmon",
+    "c": "Turbot",
+    "d": "Bass",
+    "answer": "a"
+  },
+  {
+    "question": "Which actress has won the most Oscars?", 
+    "a": "Meryl Streep",
+    "b": "Katharine Hepburn",
+    "c": "Bette Davis",
+    "d": "Cate Blanchett",
+    "answer": "b"
+  },
+  {
+    "question": "What colour is a Himalayan poppy?", 
+    "a": "Blue",
+    "b": "Yellow",
+    "c": "Red",
+    "d": "Pink",
+    "answer": "a"
+  },
+  {
+    "question": "How many valves does a trumpet have?", 
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four",
+    "answer": "c"
+  },
+  {
+    "question": "What is the most malleable metal?", 
+    "a": "Gold",
+    "b": "Silver",
+    "c": "Steel",
+    "d": "Bronze",
+    "answer": "a"
+  },
+  {
+    "question": "What does the French word \"framboise\" mean in English?", 
+    "a": "Glass",
+    "b": "Liquor",
+    "c": "Raspberry",
+    "d": "Wine",
+    "answer": "c"
+  },
+  {
+    "question": "Who was the first American to orbit the earth?", 
+    "a": "John Glenn",
+    "b": "Jim Lovell",
+    "c": "Neil Armstrong",
+    "d": "Buzz Aldrin",
+    "answer": "a"
+  },
+  {
+    "question": "What is Prince's real name?", 
+    "a": "Michael David Testolini",
+    "b": "Prince David Pierce",
+    "c": "Joe Coppolo",
+    "d": "Prince Rogers Nelson",
+    "answer": "d"
+  },
+  {
+    "question": "How many chambers does the human heart have?", 
+    "a": "Two",
+    "b": "Four",
+    "c": "Six",
+    "d": "Eight",
+    "answer": "b"
+  },
+  {
+    "question": "What is the capital of Brazil?", 
+    "a": "Rio de Janeiro",
+    "b": "Caracas",
+    "c": "Brasilia",
+    "d": "San Jose",
+    "answer": "c"
+  },
+  {
+    "question": "Who is the largest manufacturer of eyewear?", 
+    "a": "Luxottica",
+    "b": "Conglomo",
+    "c": "Globex",
+    "d": "Audemars Piguet",
+    "answer": "a"
+  },
+  {
+    "question": "What was the first mobile phone that included a touch screen?", 
+    "a": "Apple iPhone",
+    "b": "Blackberry Storm",
+    "c": "IBM Simon",
+    "d": "Nokia 8",
+    "answer": "c"
+  },
+  {
+    "question": "Almost every episode of Seinfeld contains an image or reference to what superhero?", 
+    "a": "Batman",
+    "b": "Superman",
+    "c": "Spiderman",
+    "d": "Nicholas Cage",
+    "answer": "b"
+  },
+  {
+    "question": "How many bits are in a byte?", 
+    "a": "Four",
+    "b": "Six",
+    "c": "Eight",
+    "d": "Ten",
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following words means \"to kiss and cuddle amorously\"?", 
+    "a": "Mugwump",
+    "b": "Canoodle",
+    "c": "Snollygost",
+    "d": "Taradiddle",
+    "answer": "b"
+  },
+]

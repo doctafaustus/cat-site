@@ -11,7 +11,7 @@
 	<link href="./css/main.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="body">
 	
 	<div class="top-section">
 		<div class="wrapper">
@@ -22,7 +22,7 @@
 					<li><a href="#column-section">Features</a></li>
 					<li><a href="#diamond-divider">Demo</a></li>
 					<li><a href="#testimonials-section">Testimonials</a></li>
-          <li><a href="#">Download</a></li>
+          <li><a href="#pack-section">Download</a></li>
 				</ul>
 			</header>
 		</div>
@@ -33,8 +33,8 @@
 		<img id="marquee" src="./images/marquee.png">
 
 		<div id="main-header-buttons">
-			<a class="btn-main" id="main-download" href="#">Download</a>
-			<a class="btn-main" id="main-learn-more" href="#">Learn More</a>
+			<a class="btn-main" id="main-download" href="#pack-section">Download</a>
+			<a class="btn-main" id="main-learn-more" href="#laptop-section">Learn More</a>
 		</div>
 	</div>
 
@@ -91,7 +91,7 @@
           Each question in the set includes four potential answers in multiple choice format. They were made to be high quality, non-obscure questions in which most people could make a reasonable guess. They're uncategorized and cover a wide range of topics including geographic, pop culture, history, music, movies, etc.
         </p>
 
-        <a id="laptop-download" class="btn-main" href="#">Download Now</a>
+        <a id="laptop-download" class="btn-main" href="#pack-section">Download Now</a>
       </div>
 
       <img id="laptop" src="./images/laptop.png">
@@ -255,9 +255,9 @@
 
   <div id="pre-footer-section">
     <div class="wrapper">
-      <div id="scroll-top">
+      <a id="scroll-top" href="#body">
         <svg width="20" height="20" viewBox="0 0 1792 1792"><path d="M1683 1331l-166 165q-19 19-45 19t-45-19l-531-531-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z"/></svg>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -268,7 +268,7 @@
             <li><a href="#column-section">Features</a></li>
             <li><a href="#diamond-divider">Demo</a></li>
             <li><a href="#testimonials-section">Testimonials</a></li>
-            <li><a href="#">Download</a></li>
+            <li><a href="#pack-section">Download</a></li>
         </ul>
 
         <div id="footer-extra">
@@ -278,6 +278,10 @@
       </div>
     </div>
   </footer>
+
+  <div id="download-bar">
+    <a id="download-bar-btn" href="#">Click Here to Download</a>
+  </div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -382,7 +386,7 @@
     }
 
 
-    $('#top-menu li a, #footer-links li a').click(function(e) {
+    $('#top-menu li a, #footer-links li a, #scroll-top, #main-download, #main-learn-more, #laptop-download').click(function(e) {
       e.preventDefault();
 
       var target = $(this).attr('href');
@@ -391,6 +395,11 @@
       $('html, body').animate({
         scrollTop: $(target).offset().top
       }, 500);
+    });
+
+    $('.pack-download').click(function(e) {
+      e.preventDefault();
+      console.log('!');
     });
   </script>
 </body>
