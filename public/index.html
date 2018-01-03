@@ -156,7 +156,7 @@
             <li>Uncategorized</li>
             <li>Multiple choice of 4 answers</li>
           </ul>
-          <a class="pack-download" id="pack-a" href="#">DOWNLOAD</a>
+          <a class="pack-download" id="pack-a" href="#" data-price="2000">DOWNLOAD</a>
         </div>
       </div>
 
@@ -175,7 +175,7 @@
             <li>Uncategorized</li>
             <li>Multiple choice of 4 answers</li>
           </ul>
-          <a class="pack-download" id="pack-b" href="#">DOWNLOAD</a>
+          <a class="pack-download" id="pack-b" href="#" data-price="4000">DOWNLOAD</a>
         </div>
       </div>
 
@@ -194,7 +194,7 @@
             <li>Uncategorized</li>
             <li>Multiple choice of 4 answers</li>
           </ul>
-          <a class="pack-download" id="pack-c" href="#">DOWNLOAD</a>
+          <a class="pack-download" id="pack-c" href="#" data-price="4000">DOWNLOAD</a>
         </div>
       </div>
     </div>
@@ -285,10 +285,10 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
   <script>
 
     window.questionIndex = 0;
-
 
     $('.answer-btn').click(function() {
       var $btn = $(this);
@@ -396,12 +396,9 @@
         scrollTop: $(target).offset().top
       }, 500);
     });
-
-    $('.pack-download').click(function(e) {
-      e.preventDefault();
-      console.log('!');
-    });
+    
   </script>
+  <script src="./js/stripe-handler.js"></script>
 </body>
 </html>
 
