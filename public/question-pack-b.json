@@ -1,0 +1,802 @@
+[
+  {
+    "question": "How many periods are in an ice hockey game?", 
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four",
+    "answer": "c"
+  },
+  {
+    "question": "What instrument has a long neck bearing frets and a pear-shaped body?", 
+    "a": "Uncello",
+    "b": "Yabahar",
+    "c": "Theremin",
+    "d": "Lute",
+    "answer": "d"
+  },
+  {
+    "question": "Who is George Alan O'Dowd famously known as?", 
+    "a": "Boy George",
+    "b": "George Michael",
+    "c": "George Clooney",
+    "d": "George R.R. Martin",
+    "answer": "a"
+  },
+  {
+    "question": "The furcula is another name for which bone?", 
+    "a": "Femur",
+    "b": "Wishbone ",
+    "c": "Talus",
+    "d": "Tibia",
+    "answer": "b"
+  },
+  {
+    "question": "What type of dainty cookies are used often in a tiramisu cake?", 
+    "a": "Ladyfingers",
+    "b": "Biscoti",
+    "c": "Amaretti",
+    "d": "Shortbread",
+    "answer": "a"
+  },
+  {
+    "question": "Braeburn, Rome & Gravenstein are varieties of what?", 
+    "a": "Apples",
+    "b": "Pears",
+    "c": "Flowers",
+    "d": "Squash",
+    "answer": "a"
+  },
+  {
+    "question": "During their 1983 tour, the Red Hot Chili Peppers famously wore which article of clothing in an untraditional manner?", 
+    "a": "Hoodies",
+    "b": "Underwear",
+    "c": "Hats",
+    "d": "Socks",
+    "answer": "d"
+  },
+  {
+    "question": "Which of these people is the richest (in net worth)?", 
+    "a": "Bill Gates",
+    "b": "Warren Buffett",
+    "c": "Jeff Bezos",
+    "d": "Mark Zuckerberg",
+    "answer": "c"
+  },
+  {
+    "question": "Which Disney film was released in 1981?", 
+    "a": "The Fox and the Hound",
+    "b": "The Jungle Book",
+    "c": "The Black Cauldron",
+    "d": "The Little Mermaid",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following foods would an aardvark find most appetizing?", 
+    "a": "Ants",
+    "b": "Grass",
+    "c": "Grubs",
+    "d": "Seeds",
+    "answer": "a"
+  },
+  {
+    "question": "In what city might you get stuck in traffic behind crazed fans hoping to get some of Oprah's \"favorite things?\"", 
+    "a": "New York",
+    "b": "Chicago",
+    "c": "Detroit",
+    "d": "Los Angeles",
+    "answer": "b"
+  },
+  {
+    "question": "What is the name of Conan O'Brien's fan club?", 
+    "a": "Team Coco",
+    "b": "Conan's Warriors",
+    "c": "Little Cocos",
+    "d": "Conan's Club",
+    "answer": "a"
+  },
+  {
+    "question": "Where did The Simpsons get their dog, Santa's Little Helper?", 
+    "a": "Animal Shelter",
+    "b": "Greyhound Track",
+    "c": "Airport",
+    "d": "Dumpster",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following races are not part of the Triple Crown?", 
+    "a": "Preakness Stakes",
+    "b": "Kentucky Derby",
+    "c": "Monaco Derby",
+    "d": "Belmont Stakes",
+    "answer": "c"
+  },
+  {
+    "question": "What little girl lived \"In and old house in Paris that was covered in vines,\" as described in her series of books?",
+    "a": "Olivia",
+    "b": "Madeline",
+    "c": "Dora",
+    "d": "Heidi",
+    "answer": "b"
+  },
+  {
+    "question": "People with triskaidekaphobia fear what number?", 
+    "a": "13",
+    "b": "666",
+    "c": "4",
+    "d": "39",
+    "answer": "a"
+  },
+  {
+    "question": "\"Uncle Pennybags\" is a character from what material?",
+    "a": "Cartoon",
+    "b": "Movie",
+    "c": "Book",
+    "d": "Board Game",
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is a color model in computer graphics?", 
+    "a": "KPMG",
+    "b": "CMYK",
+    "c": "RGW",
+    "d": "SRG",
+    "answer": "b"
+  },
+  {
+    "question": "What popular toy came packaged in an egg?", 
+    "a": "Gonk",
+    "b": "Pet Rock",
+    "c": "Silly Putty",
+    "d": "Floam",
+    "answer": "c"
+  },
+  {
+    "question": "What was the 2009 flu pandemic known as?", 
+    "a": "Horse Flu",
+    "b": "Asian Flu",
+    "c": "Bird Flu",
+    "d": "Swine Flu",
+    "answer": "d"
+  },
+  {
+    "question": "At what temperature does water boil (in Fahrenheit)?",
+    "a": "100",
+    "b": "212",
+    "c": "120",
+    "d": "180",
+    "answer": "b"
+  },
+  {
+    "question": "What type of pokemon is Pikachu?",
+    "a": "Rodent",
+    "b": "Electric",
+    "c": "Fighting",
+    "d": "Psychic",
+    "answer": "b"
+  },
+  {
+    "question": "Which dinosaur killed Wayne Knight's character in Jurassic Park?",
+    "a": "Tyrannosaurus",
+    "b": "Velociraptor",
+    "c": "Spinosaurus",
+    "d": "Dilophosaurus",
+    "answer": "d"
+  },
+  {
+    "question": "What term describes a font that has symbols in place of letters and numbers?",
+    "a": "Serif",
+    "b": "Halbfett",
+    "c": "Dingbat",
+    "d": "Sans-Serif",
+    "answer": "c"
+  },
+  {
+    "question": "What is the capital of Hungary?",
+    "a": "Budapest",
+    "b": "Vienna",
+    "c": "Prague",
+    "d": "Bratislava",
+    "answer": "a"
+  },
+  {
+    "question": "Which type of fish is commonly kept in a freshwater aquarium?",
+    "a": "Lionfish",
+    "b": "Guppy",
+    "c": "Grouper",
+    "d": "Angelfish",
+    "answer": "b"
+  },
+  {
+    "question": "Earl Grey tea is flavored with what?",
+    "a": "Bergamot Oil",
+    "b": "Mint",
+    "c": "Camellia",
+    "d": "Anise",
+    "answer": "a"
+  },
+  {
+    "question": "What country is Lego headquartered in?",
+    "a": "Belgium",
+    "b": "USA",
+    "c": "Denmark",
+    "d": "Switzerland",
+    "answer": "c"
+  },
+  {
+    "question": "Which 15-pin connector was provided on many video cards and computer monitors prior to HDMI?",
+    "a": "DVI",
+    "b": "RGB",
+    "c": "VGA",
+    "d": "RCA",
+    "answer": "c"
+  },
+  {
+    "question": "What was the \"must-have\" holiday toy of 1998?",
+    "a": "Pokemon",
+    "b": "Tickle Me Elmo",
+    "c": "Pogs",
+    "d": "Furby",
+    "answer": "d"
+  },
+  {
+    "question": "What rapper often wears a large clock necklace during his performances?", 
+    "a": "Flavor Flav",
+    "b": "Chuck D",
+    "c": "Ice Cube",
+    "d": "50 Cent",
+    "answer": "a"
+  },
+  {
+    "question": "Where does the Euphrates River flow through?", 
+    "a": "Iraq",
+    "b": "Romania",
+    "c": "Yemen",
+    "d": "Egypt",
+    "answer": "a"
+  },
+  {
+    "question": "\"Betcha can't eat just one.\" was the slogan for what snack?", 
+    "a": "Fritos",
+    "b": "Lay's Potato Chips",
+    "c": "Wheat Thins",
+    "d": "Ritz Crackers",
+    "answer": "b"
+  },
+  {
+    "question": "Which poet wrote the famous poem \"For Whom The Bell Tolls\"?",
+    "a": "Lars Ulrich",
+    "b": "William Shakespeare",
+    "c": "John Donne",
+    "d": "Emily Dickinson",
+    "answer": "c"
+  },
+  {
+    "question": "Enokitake is a type of what?", 
+    "a": "Mushroom",
+    "b": "Fish",
+    "c": "Tree",
+    "d": "Pear",
+    "answer": "a"
+  },
+  {
+    "question": "Which airline merged with United in 2012?", 
+    "a": "US Airways",
+    "b": "AirTran",
+    "c": "Northwest",
+    "d": "Continental",
+    "answer": "d"
+  },
+  {
+    "question": "What two-handed weapon combined a spear and battle-axe?", 
+    "a": "Morning Star",
+    "b": "Halberd",
+    "c": "Pike",
+    "d": "Ulfberht",
+    "answer": "b"
+  },
+  {
+    "question": "Which of these ingredients is NOT used in baklava?", 
+    "a": "Honey",
+    "b": "Chocolate",
+    "c": "Phyllo Dough",
+    "d": "Nuts",
+    "answer": "b"
+  },
+  {
+    "question": "Which hat is usually red and shaped like a truncated cone?", 
+    "a": "Fez",
+    "b": "Beret",
+    "c": "Boater",
+    "d": "Montera",
+    "answer": "a"
+  },
+  {
+    "question": "Hoggle is a fictional character from what movie?",
+    "a": "Lord of the Rings",
+    "b": "Harry Potter",
+    "c": "Labyrinth",
+    "d": "The Neverending Story",
+    "answer": "c"
+  },
+  {
+    "question": "Who wrote the 1986 song \"The Final Countdown\"?", 
+    "a": "Def Leppard",
+    "b": "Scorpions",
+    "c": "Journey",
+    "d": "Europe",
+    "answer": "d"
+  },
+  {
+    "question": "In what year did American women win the right to vote?", 
+    "a": "1920",
+    "b": "1933",
+    "c": "1875",
+    "d": "1917",
+    "answer": "a"
+  },
+  {
+    "question": "What type of animal is the largest primate in the world?", 
+    "a": "Tarsier",
+    "b": "Human",
+    "c": "Gorilla",
+    "d": "Orangutan",
+    "answer": "c"
+  },
+  {
+    "question": "Who served as Microsoft's CEO after Bill Gates?", 
+    "a": "Larry Page",
+    "b": "Satya Nadella",
+    "c": "Sergey Brin",
+    "d": "Steve Ballmer",
+    "answer": "d"
+  },
+  {
+    "question": "Which Egyptian goddess is pictured as a cat or as a woman with the head of a cat?",
+    "a": "Thoth",
+    "b": "Bastet",
+    "c": "Nekhbet",
+    "d": "Isis",
+    "answer": "b"
+  },
+  {
+    "question": "The fictional character Captain Ahab appears in which novel?", 
+    "a": "Moby Dick",
+    "b": "Treasure Island",
+    "c": "Robinson Crusoe",
+    "d": "Gulliver's Travels",
+    "answer": "a"
+  },
+  {
+    "question": "Which film hero has a girlfriend named \"Marion Ravenwood\"?", 
+    "a": "James Bond",
+    "b": "Indiana Jones",
+    "c": "Batman",
+    "d": "Rocky Balboa",
+    "answer": "b"
+  },
+  {
+    "question": "What instrument was played by the famous jazz musician Louis Armstrong?", 
+    "a": "Trumpet",
+    "b": "Piano",
+    "c": "Saxophone",
+    "d": "Drums",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a Girl Scout cookie?", 
+    "a": "Samoas",
+    "b": "Bredelas",
+    "c": "Thin Mints",
+    "d": "Do-si-dos",
+    "answer": "b"
+  },
+  {
+    "question": "The characters of Rosencrantz and Guildenstern appear in which Shakespeare play?", 
+    "a": "Hamlet",
+    "b": "Othello",
+    "c": "Romeon and Juliet",
+    "d": "Macbeth",
+    "answer": "a"
+  },
+  {
+    "question": "Which singer had a hit cover of Don McLean's \"American Pie\" in 2000?", 
+    "a": "Tina Turner",
+    "b": "Madonna",
+    "c": "Mariah Carey",
+    "d": "Cher",
+    "answer": "b"
+  },
+  {
+    "question": "Which country uses the krona as its currency?", 
+    "a": "Australia",
+    "b": "Morocco",
+    "c": "Sweden",
+    "d": "Brazil",
+    "answer": "c"
+  },
+  {
+    "question": "What was Google's original name?", 
+    "a": "BackRub",
+    "b": "Lycos",
+    "c": "Web Crawler",
+    "d": "Excite",
+    "answer": "a"
+  },
+  {
+    "question": "Bluetooth wireless technology was named after what?", 
+    "a": "A King",
+    "b": "A Cat",
+    "c": "A Crocodile",
+    "d": "A Mountain",
+    "answer": "a"
+  },
+  {
+    "question": "What is the name of the famous groundhog celebrated every year on February 2nd?", 
+    "a": "Fred",
+    "b": "Phil",
+    "c": "Tom",
+    "d": "Paul",
+    "answer": "b"
+  },
+  {
+    "question": "What is the softest type of wood?", 
+    "a": "Hickory",
+    "b": "Brazilian Walnut",
+    "c": "Oak",
+    "d": "Balsa",
+    "answer": "d"
+  },
+  {
+    "question": "What insect is often associated with Lyme Disease?", 
+    "a": "Lice",
+    "b": "Tick",
+    "c": "Bed Bug",
+    "d": "Mite",
+    "answer": "b"
+  },
+  {
+    "question": "Who was the father of Zeus?", 
+    "a": "Poseidon",
+    "b": "Atlas",
+    "c": "Cronus",
+    "d": "Calypso",
+    "answer": "c"
+  },
+  {
+    "question": "Which popular dating app launched in 2012?", 
+    "a": "Tinder",
+    "b": "Bumble",
+    "c": "Happn",
+    "d": "Grindr",
+    "answer": "a"
+  },
+  {
+    "question": "Which legendary character was responsible for leading children away from their homes in Germany?", 
+    "a": "Rumpelstiltskin",
+    "b": "Pied Piper",
+    "c": "Grendel",
+    "d": "Purzinigele",
+    "answer": "b"
+  },
+  {
+    "question": "What is the capital city of Canada?", 
+    "a": "Montreal",
+    "b": "Ottawa",
+    "c": "Vancouver",
+    "d": "Quebec City",
+    "answer": "b"
+  },
+  {
+    "question": "Lap Band surgery is used to treat which condition?", 
+    "a": "Obesity",
+    "b": "Infertility",
+    "c": "Back Pain",
+    "d": "Hyperthyroidism",
+    "answer": "a"
+  },
+  {
+    "question": "Adolphus Busch was best known for starting what kind of company?", 
+    "a": "Oil",
+    "b": "Bank",
+    "c": "Sausage",
+    "d": "Beer",
+    "answer": "d"
+  },
+  {
+    "question": "In the popcorn industry, what term is used to refer to kernels that don't pop?", 
+    "a": "Old Maids",
+    "b": "Busts",
+    "c": "Geese",
+    "d": "Bombs",
+    "answer": "a"
+  },
+  {
+    "question": "What is the first name of former U.S. president Garfield?", 
+    "a": "Benjamin",
+    "b": "John",
+    "c": "Andrew",
+    "d": "James",
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following snakes is poisonous?", 
+    "a": "Garter",
+    "b": "Rat",
+    "c": "Boa",
+    "d": "Cobra",
+    "answer": "d"
+  },
+  {
+    "question": "Sherwood Forest is associated with what legend?", 
+    "a": "King Arthur",
+    "b": "Robin Hood",
+    "c": "The Hobbit",
+    "d": "Lord of the Rings",
+    "answer": "b"
+  },
+  {
+    "question": "Warren Buffett is the CEO of what company?", 
+    "a": "Fannie Mae",
+    "b": "Walmart",
+    "c": "Berkshire Hathaway",
+    "d": "General Electric",
+    "answer": "c"
+  },
+  {
+    "question": "What is the fear of dreams called?", 
+    "a": "Oneirophobia",
+    "b": "Agoraphobia",
+    "c": "Hemophobia",
+    "d": "Acrophobia",
+    "answer": "a"
+  },
+  {
+    "question": "Which sport was reintroduced into the Olympic games in 2016?", 
+    "a": "Golf",
+    "b": "Water Polo",
+    "c": "Badminton",
+    "d": "Archery",
+    "answer": "a"
+  },
+  {
+    "question": "Who was the first Disney princess created?",
+    "a": "Belle",
+    "b": "Aurora",
+    "c": "Snow White",
+    "d": "Cinderella",
+    "answer": "c"
+  },
+  {
+    "question": "What kind of car was the General Lee from \"The Dukes of Hazzard\"?",
+    "a": "Dodge Charger",
+    "b": "Ford Mustang",
+    "c": "Chevrolet Camaro",
+    "d": "Dodge Challenger",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following items did Benjamin Franklin invent?",
+    "a": "Scissors",
+    "b": "Bifocals",
+    "c": "Zipper",
+    "d": "Printing Press",
+    "answer": "b"
+  },
+  {
+    "question": "How many Oscars has Tom Cruise won?",
+    "a": "Zero",
+    "b": "One",
+    "c": "Two",
+    "d": "Three",
+    "answer": "a"
+  },
+  {
+    "question": "What is the medical term for bad breath?",
+    "a": "Halitosis",
+    "b": "Dyspnea",
+    "c": "Epistaxis",
+    "d": "Edema",
+    "answer": "a"
+  },
+  {
+    "question": "A weevil is a type of what?",
+    "a": "Spellbook",
+    "b": "Wrench",
+    "c": "Beetle",
+    "d": "Sword",
+    "answer": "c"
+  },
+  {
+    "question": "How much data could fit on a standard 3.5-inch floppy disk?",
+    "a": "192 MB",
+    "b": "1.44 MB",
+    "c": "192 KB",
+    "d": "1.44 KB",
+    "answer": "b"
+  },
+  {
+    "question": "Which beer has the most calories?",
+    "a": "Budweiser Select",
+    "b": "Bud Light",
+    "c": "Beck's Premier Light",
+    "d": "Michelob Ultra",
+    "answer": "b"
+  },
+  {
+    "question": "What legendary creature creates no reflection in a mirror?",
+    "a": "Vampire",
+    "b": "Elf",
+    "c": "Gargoyle",
+    "d": "Leprechaun",
+    "answer": "a"
+  },
+  {
+    "question": "In George Orwell's novel \"Animal Farm,\" what animals control the government of the farm?",
+    "a": "Cats",
+    "b": "Pigs",
+    "c": "Goats",
+    "d": "Sheep",
+    "answer": "b"
+  },
+  {
+    "question": "In art, what material does is used in batik?", 
+    "a": "Wax",
+    "b": "Clay",
+    "c": "Wood",
+    "d": "Beads",
+    "answer": "a"
+  },
+  {
+    "question": "Author George Sand famously dated:", 
+    "a": "Liszt",
+    "b": "Salieri",
+    "c": "Chopin",
+    "d": "Satie",
+    "answer": "c"
+  },
+  {
+    "question": "The Kenai Peninsula is part of what state?", 
+    "a": "Michigan",
+    "b": "Florida",
+    "c": "Massachusetts",
+    "d": "Alaska",
+    "answer": "d"
+  },
+  {
+    "question": "Aaliyah appeared in what movie shortly before her death?", 
+    "a": "Chicago",
+    "b": "Queen of the Damned",
+    "c": "Men in Black II",
+    "d": "8 Mile",
+    "answer": "b"
+  },
+  {
+    "question": "Wood alcohol poisoning can be treated with:", 
+    "a": "Booze",
+    "b": "Saline",
+    "c": "Iodine",
+    "d": "Baking Soda",
+    "answer": "a"
+  },
+  {
+    "question": "Benadryl can be used both as an antihistamine and a(n) ______?", 
+    "a": "Antiemetic",
+    "b": "Anti-inflammatory",
+    "c": "Diuretic",
+    "d": "Analgesic",
+    "answer": "a"
+  },
+  {
+    "question": "Led Zeppelin wrote songs about the works of which person?", 
+    "a": "Nietzsche",
+    "b": "Poe",
+    "c": "Tolkein",
+    "d": "Wagner",
+    "answer": "c"
+  },
+  {
+    "question": "What does the Scandinavian liquor Akvavit taste like?", 
+    "a": "Cedar",
+    "b": "Anise",
+    "c": "Elderberry",
+    "d": "Pepper",
+    "answer": "b"
+  },
+  {
+    "question": "What is a combination of diced carrots, celery, and onion called in French cuisine?", 
+    "a": "Trois Couleurs",
+    "b": "Vraie Poutine",
+    "c": "Galette",
+    "d": "Mirepoix",
+    "answer": "d"
+  },
+  {
+    "question": "Which animal has its testicles above its dingaling?", 
+    "a": "Manatee",
+    "b": "Armadillo",
+    "c": "Kangaroo",
+    "d": "Sea Turtle",
+    "answer": "c"
+  },
+  {
+    "question": "In the body, luteinizing hormone is produced by what gland(s)?", 
+    "a": "Pituitary ",
+    "b": "Thyroid",
+    "c": "Adrenal ",
+    "d": "Mammary",
+    "answer": "a"
+  },
+  {
+    "question": "What color is closest to chartreuse?", 
+    "a": "Green",
+    "b": "Blue",
+    "c": "Purple",
+    "d": "Black",
+    "answer": "a"
+  },
+  {
+    "question": "According to the song, what did my true love give to me on the 11th day of Xmas", 
+    "a": "Maids a-Milking",
+    "b": "Drummers Drumming",
+    "c": "Pipers Piping",
+    "d": "Geese a-Laying",
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following tools would a firefighter be most likely to use?", 
+    "a": "Jaws of Life",
+    "b": "Mallet",
+    "c": "Dremel",
+    "d": "Coping Saw",
+    "answer": "a"
+  },
+  {
+    "question": "Who originated The Uncertainty Principle?", 
+    "a": "Newton",
+    "b": "Heisenberg",
+    "c": "Bohr",
+    "d": "Hawking",
+    "answer": "b"
+  },
+  {
+    "question": "How long is a silver anniversary?", 
+    "a": "10 Years",
+    "b": "25 Years",
+    "c": "50 Years",
+    "d": "60 Years",
+    "answer": "b"
+  },
+  {
+    "question": "In the game of chess, which piece has the most freedom to move?", 
+    "a": "King",
+    "b": "Queen",
+    "c": "Knight",
+    "d": "Bishop",
+    "answer": "b"
+  },
+  {
+    "question": "What country are the members of the bad Men Without Hats originally from?", 
+    "a": "USA",
+    "b": "Canada",
+    "c": "Sweden",
+    "d": "Australia",
+    "answer": "b"
+  },
+  {
+    "question": "What is the heaviest land animal on Earth?", 
+    "a": "Rhinoceros",
+    "b": "Elephant",
+    "c": "Hippopotamus",
+    "d": "Bison",
+    "answer": "b"
+  },
+  {
+    "question": "What planet did Alf come from?", 
+    "a": "Melmac",
+    "b": "Remulak",
+    "c": "Ork",
+    "d": "Cybertron",
+    "answer": "a"
+  },
+]
