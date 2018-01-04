@@ -280,7 +280,14 @@
   </footer>
 
   <div id="download-bar">
-    <a id="download-bar-btn" href="#">Click Here to Download</a>
+    <a id="download-bar-btn" href="/download">Click Here to Download</a>
+    <svg class="close" viewBox="0 0 32 32">
+      <polygon points="24.485,27.314 27.314,24.485 18.828,16 27.314,7.515 24.485,4.686 16,13.172 7.515,4.686 4.686,7.515 13.172,16 4.686,24.485 7.515,27.314 16,18.828 "></polygon>
+    </svg>
+  </div>
+
+  <div id="error-bar">
+    <div id="error-message">Oops! Something went wrong. Please try again (Your card has not been charged).</div>
   </div>
 
 
@@ -396,7 +403,20 @@
         scrollTop: $(target).offset().top
       }, 500);
     });
-    
+
+    $('#download-bar .close').click(function() {
+      $('#download-bar, #error-bar').slideUp();
+    });
+
+
+    var purchasedPack = window.sessionStorage.purchasedPack;
+    if (purchasedPack) {
+      setTimeout(function() {
+        $('#download-bar-btn').attr('href', `/download?pack=${purchasedPack}`);
+        $('#download-bar').slideDown();
+      }, 2000);
+    }
+
   </script>
   <script src="./js/stripe-handler.js"></script>
 </body>

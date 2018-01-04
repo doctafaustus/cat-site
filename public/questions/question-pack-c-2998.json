@@ -1,0 +1,802 @@
+[
+  {
+    "question": "What liquid did the Mayflower carry the most of?", 
+    "a": "Water",
+    "b": "Wine",
+    "c": "Beer",
+    "d": "Honey",
+    "answer": "c"
+  },
+  {
+    "question": "How many players are there on a baseball team?", 
+    "a": "Ten",
+    "b": "Nine",
+    "c": "Seven",
+    "d": "Twelve",
+    "answer": "b"
+  },
+  {
+    "question": "What is the name of Batman's son?", 
+    "a": "Robin",
+    "b": "Dick",
+    "c": "Damien",
+    "d": "Jason",
+    "answer": "c"
+  },
+  {
+    "question": "What must the alcoholic beverage Melomel contain?", 
+    "a": "Fruit",
+    "b": "Fresh Hops",
+    "c": "Barley",
+    "d": "Chocolate",
+    "answer": "a"
+  },
+  {
+    "question": "What makes whiskey a \"straight\" whiskey?", 
+    "a": "Made in Kentucky",
+    "b": "Over 50% Rye",
+    "c": "Aged for 2 Years",
+    "d": "Rate a 0 on the Kinsey Scale",
+    "answer": "c"
+  },
+  {
+    "question": "When did the Cleveland Indians last win the World Series?", 
+    "a": "2016",
+    "b": "1926",
+    "c": "1952",
+    "d": "1948",
+    "answer": "d"
+  },
+  {
+    "question": "Who is the city of Cleveland named after?", 
+    "a": "General Robert Cleveland",
+    "b": "General Moses Cleaveland",
+    "c": "President Grover Cleveland",
+    "d": "Writer Francis Cleaveland",
+    "answer": "b"
+  },
+  {
+    "question": "What name is Norma Jean Baker more commonly known as?", 
+    "a": "Madonna",
+    "b": "Marilyn Monroe",
+    "c": "Cher",
+    "d": "Jennifer Lawrence",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is not a member of the Marx Brothers?", 
+    "a": "Groucho",
+    "b": "Chipo",
+    "c": "Zeppo",
+    "d": "Harpo",
+    "answer": "b"
+  },
+  {
+    "question": "If you ordered \"du Barry,\" at a restaurant what food would you be served?", 
+    "a": "Cauliflower Soup",
+    "b": "A French Cheese",
+    "c": "Grilled Duck ",
+    "d": "Smoked Sausage ",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following online music services launched first?", 
+    "a": "Spotify",
+    "b": "Apple Music",
+    "c": "Tidal",
+    "d": "Google Play Music",
+    "answer": "a"
+  },
+  {
+    "question": "How many grams are in an ounce?", 
+    "a": "4",
+    "b": "8",
+    "c": "16",
+    "d": "28",
+    "answer": "d"
+  },
+  {
+    "question": "What is the offspring of a male donkey and a female horse?", 
+    "a": "Tarpan",
+    "b": "Mule",
+    "c": "Pony",
+    "d": "Hinny",
+    "answer": "b"
+  },
+  {
+    "question": "What Chinese game consists of 144 rectangular pieces called tiles?", 
+    "a": "Mahjong",
+    "b": "Go",
+    "c": "Chinese Checkers",
+    "d": "Xiangqi",
+    "answer": "a"
+  },
+  {
+    "question": "In \"Alice in Wonderland,\" what character is always worried about being late?", 
+    "a": "The Mad Hatter",
+    "b": "White Rabbit",
+    "c": "Cheshire Cat",
+    "d": "Caterpillar",
+    "answer": "b"
+  },
+  {
+    "question": "Who is the famous mother of CNN anchor, Anderson Cooper?", 
+    "a": "Jayne Mansfield",
+    "b": "Marilyn Monroe",
+    "c": "Gloria Vanderbilt",
+    "d": "Sophia Loren",
+    "answer": "c"
+  },
+  {
+    "question": "What is the opposite of nocturnal?", 
+    "a": "Diurnal",
+    "b": "Zoonal",
+    "c": "Unisonal",
+    "d": "Umbonal",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a consumer credit reporting agency?", 
+    "a": "TransUnion",
+    "b": "Experian",
+    "c": "Fannie Mae",
+    "d": "Equifax",
+    "answer": "c"
+  },
+  {
+    "question": "What is the symbol for iron in chemistry?", 
+    "a": "Fe",
+    "b": "I",
+    "c": "Fn",
+    "d": "Ir",
+    "answer": "a"
+  },
+  {
+    "question": "Which insurance company features an umbrella in its logo?", 
+    "a": "Nationwide",
+    "b": "State Farm",
+    "c": "Travelers",
+    "d": "Aflac",
+    "answer": "c"
+  },
+  {
+    "question": "What board game involves a game piece called a \"Bread Basket\"?", 
+    "a": "Clue",
+    "b": "Stratego",
+    "c": "Mouse Trap",
+    "d": "Operation",
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is NOT a character from McDonald's McDonaldland?", 
+    "a": "Captain Crook",
+    "b": "Billy Burger",
+    "c": "Grimace",
+    "d": "Birdie",
+    "answer": "b"
+  },
+  {
+    "question": "Paul McCartney's daughter Stella, is famous in what industry?", 
+    "a": "Fashion",
+    "b": "Music",
+    "c": "Movies",
+    "d": "Literature",
+    "answer": "a"
+  },
+  {
+    "question": "What word describes a small settlement, generally one smaller than a village?", 
+    "a": "Estuary",
+    "b": "Hamlet",
+    "c": "Shire",
+    "d": "Canton",
+    "answer": "b"
+  },
+  {
+    "question": "What type of road is raised to allow access across low or swampy ground?", 
+    "a": "Parkway",
+    "b": "Turnpike",
+    "c": "Causeway",
+    "d": "Beltway",
+    "answer": "c"
+  },
+  {
+    "question": "On the show Beavis and Butt-Head, Beavis often transforms into what character?",
+    "a": "Stefan",
+    "b": "Duffman",
+    "c": "Mint-Berry Crunch",
+    "d": "Cornholio",
+    "answer": "d"
+  },
+  {
+    "question": "Who invented the World Wide Web?", 
+    "a": "Tim Berners-Lee",
+    "b": "Larry Page",
+    "c": "John Fanning",
+    "d": "Steve Wozniak",
+    "answer": "a"
+  },
+  {
+    "question": "How many bones exist within the human body?", 
+    "a": "174",
+    "b": "206",
+    "c": "410",
+    "d": "640",
+    "answer": "b"
+  },
+  {
+    "question": "Which alcoholic beverage is anise-flavored?", 
+    "a": "Sambuca",
+    "b": "Pimm's",
+    "c": "Hpnotiq",
+    "d": "Midori",
+    "answer": "a"
+  },
+  {
+    "question": "Where is the legendary town of Sleepy Hollow located?", 
+    "a": "New York",
+    "b": "Massachusetts",
+    "c": "Rhode Island",
+    "d": "New Hampshire",
+    "answer": "a"
+  },
+  {
+    "question": "What is the closest galaxy to our own?", 
+    "a": "Milky Way",
+    "b": "Betelgeuse",
+    "c": "Andromeda",
+    "d": "NGC 1300",
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is known as a language isolate?", 
+    "a": "Urdu",
+    "b": "Kanji",
+    "c": "Catalan",
+    "d": "Basque",
+    "answer": "d"
+  },
+  {
+    "question": "What is the only ancient wonder that still exists?", 
+    "a": "Great Pyramid of Giza",
+    "b": "Colossus of Rhodes",
+    "c": "Great Wall of China",
+    "d": "Colosseum",
+    "answer": "a"
+  },
+  {
+    "question": "How tall was Napoleon Bonaparte?", 
+    "a": "5' 1\"",
+    "b": "5' 5\"",
+    "c": "5' 7\"",
+    "d": "5' 8\"",
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a thicking sauce made up of flour and fat?",
+    "a": "Aioli",
+    "b": "Roux",
+    "c": "Hollandaise",
+    "d": "Crisco",
+    "answer": "b"
+  },
+  {
+    "question": "Who is the goddaughter of Dolly Parton?", 
+    "a": "Sara Evans",
+    "b": "Carrie Underwood",
+    "c": "Taylor Swift",
+    "d": "Miley Cyrus",
+    "answer": "d"
+  },
+  {
+    "question": "Which musician has a theme park named after him/her?",
+    "a": "Bob Marley",
+    "b": "Dolly Parton",
+    "c": "Bob Dylan",
+    "d": "Art Garfunkel",
+    "answer": "b"
+  },
+  {
+    "question": "What serial killer was known as \"The Killer Clown\"?", 
+    "a": "John Wayne Gacy",
+    "b": "Ted Bundy",
+    "c": "Jeffrey Dahmer",
+    "d": "Charles Manson",
+    "answer": "a"
+  },
+  {
+    "question": "Who is the Greek counterpart of the goddess Venus?", 
+    "a": "Aphrodite",
+    "b": "Brizo",
+    "c": "Calypso",
+    "d": "Demeter",
+    "answer": "a"
+  },
+  {
+    "question": "What 1996 children's movie starred Shaquille O'Neal?", 
+    "a": "Kazaam",
+    "b": "Shazam!",
+    "c": "Space Jam",
+    "d": "Air Bud",
+    "answer": "a"
+  },
+  {
+    "question": "In what area of the human body is a metacarpal bone located?", 
+    "a": "Chest",
+    "b": "Hand",
+    "c": "Foot",
+    "d": "Leg",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT considered an Ivy League school?", 
+    "a": "Brown University",
+    "b": "Dartmouth College",
+    "c": "Duke University",
+    "d": "Cornell University",
+    "answer": "c"
+  },
+  {
+    "question": "Which breed of dog is also known as Blue Heelers?", 
+    "a": "Australian Cattle Dog",
+    "b": "Australian Terrier",
+    "c": "Australian Shepherd",
+    "d": "Australian Silky Terrier",
+    "answer": "a"
+  },
+  {
+    "question": "What is the name of the Lucky Charms cereal mascot?",
+    "a": "Lucky",
+    "b": "Sam",
+    "c": "Sunny",
+    "d": "Finn",
+    "answer": "a"
+  },
+  {
+    "question": "Cherilyn Sarkisian is the birth name of which famous woman?", 
+    "a": "Cheryl Tiegs",
+    "b": "Cheryl Hines",
+    "c": "Cher",
+    "d": "Cheryl Burke",
+    "answer": "c"
+  },
+  {
+    "question": "\"Please, sir, I want some more.\" is a famous line from what novel?", 
+    "a": "To Kill a Mockingbird",
+    "b": "Oliver Twist",
+    "c": "The Adventures of Tom Sawyer",
+    "d": "Brave New World",
+    "answer": "b"
+  },
+  {
+    "question": "Which U.S. President is NOT featured on Mount Rushmore?", 
+    "a": "George Washington",
+    "b": "Thomas Jefferson",
+    "c": "Franklin Roosevelt",
+    "d": "Abraham Lincoln",
+    "answer": "c"
+  },
+  {
+    "question": "What is the name of Roger Rabbit's wife?", 
+    "a": "Victoria",
+    "b": "Jessica",
+    "c": "Vanessa",
+    "d": "Jennifer",
+    "answer": "b"
+  },
+  {
+    "question": "A Hadouken is a special attack in what video game?", 
+    "a": "Super Smash Bros.",
+    "b": "Mortal Kombat",
+    "c": "Mike Tyson's Punch-Out!!",
+    "d": "Street Fighter",
+    "answer": "d"
+  },
+  {
+    "question": "Which rock singer bit the head off a bat on stage?", 
+    "a": "Ozzy Osbourne",
+    "b": "Marilyn Manson",
+    "c": "Alice Cooper",
+    "d": "Rob Zombie",
+    "answer": "a"
+  },
+  {
+    "question": "Gin and tonics are a fun way to prevent what disease?", 
+    "a": "Malaria",
+    "b": "Giardia",
+    "c": "Sobriety",
+    "d": "Rickets",
+    "answer": "a"
+  },
+  {
+    "question": "The fictional \"Three Laws of Robotics\" were created by:", 
+    "a": "Le Guin",
+    "b": "Bradbury",
+    "c": "Asimov",
+    "d": "Bender",
+    "answer": "c"
+  },
+  {
+    "question": "How many tablespoons in a quarter cup?", 
+    "a": "2.5",
+    "b": "3",
+    "c": "4",
+    "d": "1.2 billion",
+    "answer": "c"
+  },
+  {
+    "question": "In a normal environment, a human can survive for ___ days without water. ", 
+    "a": "1",
+    "b": "3-5",
+    "c": "11-15",
+    "d": "up to 21",
+    "answer": "b"
+  },
+  {
+    "question": "In hunting, the number of points a buck is worth is determined by its:", 
+    "a": "Weight",
+    "b": "Shoulder Height",
+    "c": "Shirt Size",
+    "d": "Horns",
+    "answer": "d"
+  },
+  {
+    "question": "Buddhism originated in what is now:", 
+    "a": "India",
+    "b": "China",
+    "c": "Japan",
+    "d": "Your Mom",
+    "answer": "a"
+  },
+  {
+    "question": "Sister Rosetta Tharpe basically invented:", 
+    "a": "Nunnery",
+    "b": "Ski-dancing",
+    "c": "Rock n' Roll",
+    "d": "Rollerblades",
+    "answer": "c"
+  },
+  {
+    "question": "Rogaine was originally developed as a medication for:", 
+    "a": "Erectile Dysfunction",
+    "b": "Blood Pressure",
+    "c": "High Cholesterol",
+    "d": "Jock Itch",
+    "answer": "b"
+  },
+  {
+    "question": "The northern lights are caused by:", 
+    "a": "Sound Waves",
+    "b": "Chemtrails",
+    "c": "Hundreds of Bees",
+    "d": "Solar Flares",
+    "answer": "d"
+  },
+  {
+    "question": "In Calvin and Hobbes, what was Calvin's main super hero alter ego?", 
+    "a": "Underpants Man",
+    "b": "Zorcher",
+    "c": "King Dino",
+    "d": "Spaceman Spiff",
+    "answer": "d"
+  },
+  {
+    "question": "What company manufactures the Core 2 Duo processor?", 
+    "a": "AMD",
+    "b": "Sun Microsystems",
+    "c": "Intel",
+    "d": "IBM",
+    "answer": "c"
+  },
+  {
+    "question": "\"Phobos\" and \"Deimos\" are the names of ____:", 
+    "a": "Moons",
+    "b": "Roman Goddesses",
+    "c": "Microscopic Particles",
+    "d": "Ancient Egyptian Rulers",
+    "answer": "a"
+  },
+  {
+    "question": "Photosynthesis is carried out in which part of the cell?", 
+    "a": "Mitochondria",
+    "b": "Centrioles",
+    "c": "Chloroplasts",
+    "d": "Ribosomes",
+    "answer": "c"
+  },
+  {
+    "question": "A material that can be pressed into shape without breaking can also be described as:", 
+    "a": "Viscous",
+    "b": "Malleable",
+    "c": "Imperturbable",
+    "d": "Insatiable",
+    "answer": "b"
+  },
+  {
+    "question": "John Adams appears on which denomination of the U.S. dollar?", 
+    "a": "None",
+    "b": "$2",
+    "c": "$100",
+    "d": "$5,000",
+    "answer": "a"
+  },
+  {
+    "question": "Which animal is endemic to Australia?", 
+    "a": "Emu",
+    "b": "Alpaca",
+    "c": "Llama",
+    "d": "Vicuna",
+    "answer": "a"
+  },
+  {
+    "question": "What year was YouTube launched?", 
+    "a": "2004",
+    "b": "2005",
+    "c": "2006",
+    "d": "2007",
+    "answer": "b"
+  },
+  {
+    "question": "The Joint Photographic Experts Group is best known for creating ____?", 
+    "a": "Photoshop",
+    "b": "GIMP",
+    "c": "A Digital Image Format",
+    "d": "SVG",
+    "answer": "c"
+  },
+  {
+    "question": "In which state would you find the Great Smoky Mountains?", 
+    "a": "Tennessee",
+    "b": "California",
+    "c": "Utah",
+    "d": "Idaho",
+    "answer": "a"
+  },
+  {
+    "question": "Who is NOT a character from the show \"Muppet Babies\"?", 
+    "a": "Scooter",
+    "b": "Frazzle",
+    "c": "Skeeter",
+    "d": "Bunsen",
+    "answer": "b"
+  },
+  {
+    "question": "Which female soccer player famously took off her shirt in the 1999 Women's World Cup?", 
+    "a": "Mia Hamm",
+    "b": "Kristine Lilly",
+    "c": "Hope Solo",
+    "d": "Brandi Chastain",
+    "answer": "d"
+  },
+  {
+    "question": "Which famous bachelor was engaged to Meghan Markle?", 
+    "a": "John Mayer",
+    "b": "Prince Harry",
+    "c": "George Clooney",
+    "d": "Zac Efron",
+    "answer": "b"
+  },
+  {
+    "question": "Which Goonies character appeared in the hit Netflix show Stranger Things?", 
+    "a": "Mouth",
+    "b": "Mikey",
+    "c": "Chunk",
+    "d": "Data",
+    "answer": "b"
+  },
+  {
+    "question": "Where is Dippin' Dots (aka the Ice Cream of the future) headquartered?", 
+    "a": "South Burlington, VT",
+    "b": "Carlsbad, CA",
+    "c": "Paducah, KY",
+    "d": "Oak Brook, IL",
+    "answer": "c"
+  },
+  {
+    "question": "In the show The Office, the K in Dwight K. Schrute stands for what?", 
+    "a": "Kyle",
+    "b": "Karl",
+    "c": "Kurt",
+    "d": "Klaus",
+    "answer": "c"
+  },
+  {
+    "question": "At what age did Michael Phelps first qualify for the Olympics?", 
+    "a": "13",
+    "b": "15",
+    "c": "16",
+    "d": "18",
+    "answer": "b"
+  },
+  {
+    "question": "Sean Carey and Justin Vernon of Bon Iver are both from what small town?", 
+    "a": "Eau Claire, WI",
+    "b": "White Bear Lake, MN",
+    "c": "Star City, IN",
+    "d": "Montoursville, PA",
+    "answer": "a"
+  },
+  {
+    "question": "Who was the most Googled political candidate of 2016?", 
+    "a": "Hillary Clinton",
+    "b": "Ted Cruz",
+    "c": "Bernie Sanders",
+    "d": "Donald Trump",
+    "answer": "d"
+  },
+  {
+    "question": "Of the following words from Harry Potter, which is not in the dictionary?", 
+    "a": "Pensieve",
+    "b": "Dumbledore",
+    "c": "Muggle",
+    "d": "Arithmancy",
+    "answer": "a"
+  },
+  {
+	  "question": "On the famous album cover Abbey Road, which band member isn't wearing shoes?", 
+	  "a": "John Lennon",
+	  "b": "Ringo Starr",
+	  "c": "Paul McCartney",
+	  "d": "George Harrison",
+	  "answer": "c"
+  },
+  {
+    "question": "What is the official name of Trader Joe's \"Two Buck Chuck\" wine?", 
+    "a": "Charles Shaw Wine",
+    "b": "Charles Bronson Wine",
+    "c": "Charlie Buck Wine",
+    "d": "Chuck Liddel Wine",
+    "answer": "a"
+  },
+  {
+    "question": "Which street in New York City is ranked among the most expensive retail shopping streets in the world?", 
+    "a": "5th Avenue",
+    "b": "7th Avenue",
+    "c": "Times Square",
+    "d": "Broadway",
+    "answer": "a"
+  },
+  {
+    "question": "What is the second largest country in the world (by area)?", 
+    "a": "Russia",
+    "b": "Canada",
+    "c": "China",
+    "d": "Brazil",
+    "answer": "b"
+  },
+  {
+    "question": "Who founded the Church of Scientology?", 
+    "a": "Albert Benjamin Simpson",
+    "b": "Jakob Ammann",
+    "c": "L. Ron Hubbard",
+    "d": "Joseph Smith",
+    "answer": "c"
+  },
+  {
+    "question": "A musical recording that contains more tracks than a single, but not enough to qualify as an album is a(n) ____ record.", 
+    "a": "LP",
+    "b": "EP",
+    "c": "CD",
+    "d": "LD",
+    "answer": "b"
+  },
+  {
+    "question": "What was the name of the first video ever uploaded to YouTube?", 
+    "a": "Cute Cats",
+    "b": "Me at the Zoo",
+    "c": "Flambe Disaster",
+    "d": "Hello World",
+    "answer": "b"
+  },
+  {
+    "question": "Android OS versions are code-named after what?", 
+    "a": "Toy Story Characters",
+    "b": "Animals",
+    "c": "Mountains",
+    "d": "Confections",
+    "answer": "d"
+  },
+  {
+    "question": "The the accumulation of gas in the alimentary canal is also known as ____.", 
+    "a": "Blockchain",
+    "b": "Flatulence",
+    "c": "Combustion",
+    "d": "Attenuation ",
+    "answer": "b"
+  },
+  {
+    "question": "What is \"Turkish Delight\"?", 
+    "a": "A Dessert",
+    "b": "A Dance",
+    "c": "A Plant",
+    "d": "A Play",
+    "answer": "a"
+  },
+  {
+    "question": "What was the name of the first cloned mammal?", 
+    "a": "Heidi",
+    "b": "Harambe",
+    "c": "Bo",
+    "d": "Dolly",
+    "answer": "d"
+  },
+  {
+    "question": "Which medication is an antihistamine?", 
+    "a": "Lamisil",
+    "b": "Tylenol",
+    "c": "Benadryl",
+    "d": "Motrin",
+    "answer": "c"
+  },
+  {
+    "question": "The vertical bar key on a keyboard, \"|\" is also referred to as what?", 
+    "a": "Pipe Symbol",
+    "b": "Harp Key",
+    "c": "Bar Symbol",
+    "d": "Straight Slash Key",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a component of a toilet?", 
+    "a": "Flapper",
+    "b": "Float",
+    "c": "Fill Valve",
+    "d": "Tub Ring",
+    "answer": "d"
+  },
+  {
+    "question": "What kind of creature was Gizmo from the movie \"Gremlims\"?", 
+    "a": "Gelfling",
+    "b": "Mogwai",
+    "c": "Na'vi",
+    "d": "Zokzah",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following animals is a carnivore?", 
+    "a": "Whale",
+    "b": "Deer",
+    "c": "Chimpanzee",
+    "d": "Caterpillar",
+    "answer": "a"
+  },
+  {
+    "question": "What is Luigi's last name from the Mario Bros. video game franchise?" , 
+    "a": "Miyamoto",
+    "b": "Mario",
+    "c": "DiNapoli",
+    "d": "Esposito",
+    "answer": "b"
+  },
+  {
+    "question": "Where was pizza invented?", 
+    "a": "Bronx, New York",
+    "b": "Brooklyn, New York",
+    "c": "Florence, Italy",
+    "d": "Naples, Italy",
+    "answer": "d"
+  },
+  {
+    "question": "President Clinton and his family had a pet named Socks. What kind of pet was it?", 
+    "a": "Ferret",
+    "b": "Cat",
+    "c": "Rabbit",
+    "d": "Dog",
+    "answer": "b"
+  },
+  {
+    "question": "Which part of the plant/tree is cinnamon made out of?", 
+    "a": "The Flower",
+    "b": "The Stem",
+    "c": "The Root",
+    "d": "The Bark",
+    "answer": "d"
+  },
+  {
+    "question": "Which item is seen in the famous painting \"The Birth of Venus\"?", 
+    "a": "Scallop Shell",
+    "b": "Harp",
+    "c": "Serpent",
+    "d": "White Horse",
+    "answer": "a"
+  },
+]

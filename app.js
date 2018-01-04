@@ -29,19 +29,35 @@ app.post('/charge', (req, res) => {
 	}, (err, customer) => {
 
 		if (err) console.log(err);
-		console.log('Customer created:', customer);
 
 		stripe.charges.create({
-		  amount: 499,
+		  amount: req.body.price,
 		  currency: 'usd',
 		  customer: customer.id,
 		  description: `Charge for ${req.body.stripeEmail}`,
 		}, (err, charge) => {
-
-			console.log('Charge created:', charge);
 			res.sendStatus(200);
 	  });
 	});
+});
+
+
+app.get('/download', (req, res) => {
+
+	let pack;
+	switch(req.query.pack) {
+		case 'a':
+			pack = 'a-3011';
+			break;
+		case 'b':
+			pack = 'b-1000';
+			break;
+		case 'c':
+			pack = 'c-2998';
+			break;
+	}
+
+  res.download(__dirname + `/public/questions/question-pack-${pack}.json`);
 });
 
 

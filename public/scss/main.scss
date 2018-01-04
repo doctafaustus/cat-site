@@ -588,7 +588,7 @@ footer {
   }
 }
 
-#download-bar {
+#download-bar, #error-bar {
   display: none;
   background-color: #00b7e2;
   position: fixed;
@@ -610,6 +610,24 @@ footer {
       background-color: #01a8ce;
     }
   }
+
+  .close {
+    float: right;
+    width: 25px;
+    fill: white;
+    position: relative;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
+}
+
+#error-bar {
+  background-color: red;
+  bottom: 0;
+  top: auto;
+  padding: 15px 0;
+  line-height: 20px;
 }
 
 @keyframes correct {
