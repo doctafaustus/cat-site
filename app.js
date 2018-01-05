@@ -57,7 +57,7 @@ app.get('/download', (req, res) => {
 			break;
 	}
 
-  res.download(__dirname + `/public/questions/question-pack-${pack}.json`);
+  res.download(__dirname + `/public/questions/question-pack-${pack}.zip`);
 });
 
 
