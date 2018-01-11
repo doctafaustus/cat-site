@@ -16,7 +16,8 @@ const app = express();
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true, limit: '1mb' }));
-app.use(favicon(__dirname + '/public/images/favicon.ico'));
+//app.use(favicon(__dirname + '/public/images/favicon.ico'));
+
 
 
 
