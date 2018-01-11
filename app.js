@@ -1,17 +1,22 @@
+// Modules
+const fs = require('fs');
+const favicon = require('serve-favicon');
+
 // Express
 const express = require('express');
 const bodyParser = require('body-parser');
 
 // Stripe
-const stripeSK = '';
-const stripe = require("stripe")(stripeSK);
+// const stripeSK = process.env.PORT ? process.env.STRIPE_LIVE_SK : fs.readFileSync('./private/stripe-test-secret-key.txt').toString();
+const stripeSK = fs.readFileSync('./private/stripe-test-secret-key.txt').toString();
+const stripe = require('stripe')(stripeSK);
 
 // Express
 const app = express();
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true, limit: '1mb' }));
-
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 
 

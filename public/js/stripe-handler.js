@@ -10,7 +10,7 @@ $('.pack-download').click(function(e) {
 
 	var handler = StripeCheckout.configure({
 		key: 'pk_test_OKClfKEUHvsE9Bpb9hoptSGV',
-		//image: 'images/stripe-logo.png',
+		image: './images/stripe-logo.png',
 		locale: 'auto',
 		token: function(token) {
 
