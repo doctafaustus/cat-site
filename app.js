@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '1mb' }));
 
 
 app.get('/', (req, res) => {
-	res.render('/');
+	res.render('index.ejs');
 });
 
 
