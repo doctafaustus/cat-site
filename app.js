@@ -7,8 +7,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 // Stripe
-// const stripeSK = process.env.PORT ? process.env.STRIPE_LIVE_SK : fs.readFileSync('./private/stripe-test-secret-key.txt').toString();
-const stripeSK = process.env.STRIPE_TEST_SK;
+const stripeSK = process.env.PORT ? process.env.STRIPE_LIVE_SK : fs.readFileSync('./private/stripe-test-secret-key.txt').toString();
 const stripe = require('stripe')(stripeSK);
 
 // Express

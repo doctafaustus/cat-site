@@ -9,7 +9,8 @@ $('.pack-download').click(function(e) {
 
 
 	var handler = StripeCheckout.configure({
-		key: 'pk_test_OKClfKEUHvsE9Bpb9hoptSGV',
+		// key: 'pk_test_OKClfKEUHvsE9Bpb9hoptSGV', // Test Data
+		key: 'pk_live_WoScdx61kcdTsm7TbBSalh8j',
 		image: './images/stripe-logo.png',
 		locale: 'auto',
 		token: function(token) {
